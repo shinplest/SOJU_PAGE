@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+}
+#irin
+{
+    width: 100%;
+    //z-index: -1;
+}
+#nav
+{
+    position: fixed;
+    width: 100%;
+    background-color: #777777;
+    text-align: center;
+    opacity: 0.7;
+    height: 50px;
+    font-size: 25px;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    vertical-align: center;
+}
+a:link{
+    color:green;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: seagreen;
+}
+
+#history{
+    background-color: #fffde5
+}
+
+/*from now on about button or sth*/
+#gotop{
+    float: right;
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 30px;
+}
+#gotop:hover{
+    background-color: #ddd;
+    color: black;
+}
