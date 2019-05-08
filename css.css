@@ -1,6 +1,9 @@
 body{
     margin: 0px;
 }
+body::-webkit-scrollbar { 
+    display: none; 
+} /* body 스크롤 안보이게 하기 */
 #irin
 {
     width: 100%;
@@ -52,4 +55,27 @@ a:visited{
 #gotop:hover{
     background-color: #ddd;
     color: black;
+}
+#main{
+    width: 90%;
+}
+#bigsoju{
+    position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
+    height: 100%; text-align: center;
+    background-color: rgba(81, 143, 81, 0.8);
+}
+#detail_original_soju, #detail_fruit_soju, #detail_like_soju{
+    display: none;
+    position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
+    height: 100%; text-align: center;
+    background-color: rgba(81, 143, 81, 0.8);
+}
+
+.box{
+    height: 100px; width: 100px;
+    display: block; text-align: center;
+    
+}
+.box:hover{
+    background-color: seagreen;
 }
