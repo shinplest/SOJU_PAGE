@@ -19,13 +19,13 @@ function mount(){
     M= document.getElementById("detail_original_soju");
     M.style.display = 'none';
 }
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+// Scroll to a certain element
+/*
+function myFunction() {
+    var elmnt = document.getElementById("kind");
+    elmnt.scrollIntoView({
+        behavior: 'smooth'
     });
-});
+}
+*/
+

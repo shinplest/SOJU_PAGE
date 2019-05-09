@@ -1,3 +1,9 @@
+/*css로 smooth scrolling (only chrome)*/
+html {
+    scroll-behavior: smooth;
+  }
+
+
 body{
     margin: 0px;
 }
