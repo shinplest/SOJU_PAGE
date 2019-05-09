@@ -63,18 +63,19 @@ a:visited{
     color: black;
 }
 #main{
-    width: 90%;
+    width: 92%;
 }
 #bigsoju{
     position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
     height: 100%; text-align: center;
-    background-color: rgba(81, 143, 81, 0.8);
+    background-color: #2F3339;
+    color: white;
 }
 #detail_original_soju, #detail_fruit_soju, #detail_like_soju{
     display: none;
     position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
     height: 100%; text-align: center;
-    background-color: rgba(81, 143, 81, 0.8);
+    background-color: #ddd(120, 192, 120, 0.8);
 }
 
 .box{
@@ -83,5 +84,5 @@ a:visited{
     
 }
 .box:hover{
-    background-color: seagreen;
+    background-color: #9e9d9d;
 }

@@ -9,15 +9,27 @@ var age = prompt("만 19세 이상만 이 페이지를 볼 수 있습니다. 생
         alert(age);
     }
 
-function mover(){
-    var M;
-    M= document.getElementById("detail_original_soju");
+function on_original(){
+    var M,m,i;
+    m = document.getElementById("bigsoju");
+    M = document.getElementById("detail_original_soju");
+    i = document.getElementById("original");
+    
+    m.style.right = '100px';
     M.style.display = 'block';
+    i.style.backgroundColor = '#ddd';
+    M.style.backgroundColor = '#ddd';
 }
-function mount(){
-    var M;
+function out_original(){
+    var M,m;
+    m = document.getElementById("bigsoju");
     M= document.getElementById("detail_original_soju");
+    i = document.getElementById("original");
+
+    i.style.backgroundColor = '#2F3339';
+    m.style.right = '0px';
     M.style.display = 'none';
+    
 }
 // /Scroll to a certain element
 /*
