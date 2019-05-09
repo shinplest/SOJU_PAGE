@@ -19,7 +19,7 @@ function mount(){
     M= document.getElementById("detail_original_soju");
     M.style.display = 'none';
 }
-// Scroll to a certain element
+// /Scroll to a certain element
 /*
 function myFunction() {
     var elmnt = document.getElementById("kind");
