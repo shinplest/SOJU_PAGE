@@ -77,19 +77,20 @@ a:visited{
     height: 100%; text-align: center;
     background-color: #2F3339;
     color: white;
+    z-index: 11;
 }
 #detail_original_soju, #detail_fruit_soju, #detail_like_soju{
     display: none;
     position: absolute; position: fixed; top: 0px; right: 0; background-color: #2F3339;
     height: 100%; text-align: center;
     background-color: #2F3339;
-    color: white;
+    color: white; z-index: 11;
 }
 
 .box{
     height: 100px; width: 100px;
     display: block; text-align: center;
-    
+    border-bottom: 1px solid #000000;
 }
 .box:hover{
     /*background-color: #9e9d9d;*/
