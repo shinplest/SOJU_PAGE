@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
-    <script type="text/javascript" src="SmoothIMGchange.js"></script>
 </head>
 
 <body>
@@ -44,50 +43,26 @@
             <div id="kind">
                 <a name="kind"></a>
                 <h1>소주의 종류</h1>
-                <!-- 스무뜨 사진 넘기기 실험중 -->
-                <div id="sojukinds" style="left: 0px;">
-                    <div>
-                        <img src="./img/참이슬.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/좋은데이.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/처음처럼.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/잎새주.jpg" alt="">
-                    </div>
 
-                    <div>
-                        <img src="./img/우린.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/한라산.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./img/맛있는 참.jpg" alt="">
-                    </div>
+                <div id="background">
+                    <a name="top"></a>
+                    <video id="irin" preload="auto" autoplay="true" loop="loop" volume="5">
+                        <source src="soju.mp4">
+                    </video>
+                </div>
+                <div id="content">
+                    <div id="history">
+                        <a name="history"></a>
+                        <h1>소주의 역사</h1>
 
-    <div id="background">
-        <a name="top"></a>
-        <video id="irin" preload="auto" autoplay="true" loop="loop" volume="5">
-            <source src="soju.mp4">
-        </video>
-    </div>
-    <div id="content">
-        <div id="history">
-            <a name="history"></a>
-            <h1>소주의 역사</h1>
-
+                    </div>
+                </div>
+                <footer>
+                    <input type="button" id="gotop" value="top" onclick="window.location.href = '#top'">
+                </footer>
             </div>
-        </div>
-        <footer>
-            <input type="button" id="gotop" value="top" onclick="window.location.href = '#top'">
-        </footer>
-        </div>
 
-        <script src="./script.js"></script>
+            <script src="./script.js"></script>
     </section>
 
     <section id="rightnav" class="show-on-scroll">
