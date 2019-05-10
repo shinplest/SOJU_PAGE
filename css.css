@@ -12,8 +12,8 @@ body::-webkit-scrollbar {
 } /* body 스크롤 안보이게 하기 */
 #irin
 {
-    width: 100%;
-    //z-index: -1;
+    width: 1537px;
+    z-index: 9;
 }
 #nav
 {
@@ -63,7 +63,7 @@ a:visited{
     color: black;
 }
 #main{
-    width: 92%;
+    width: 93%;
 }
 #bigsoju{
     position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
@@ -73,9 +73,10 @@ a:visited{
 }
 #detail_original_soju, #detail_fruit_soju, #detail_like_soju{
     display: none;
-    position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
+    position: absolute; position: fixed; top: 0px; right: 0; background-color: #2F3339;
     height: 100%; text-align: center;
-    background-color: #ddd(120, 192, 120, 0.8);
+    background-color: #2F3339;
+    color: white;
 }
 
 .box{
@@ -84,5 +85,21 @@ a:visited{
     
 }
 .box:hover{
-    background-color: #9e9d9d;
+    /*background-color: #9e9d9d;*/
+    cursor: pointer;
+}
+.show-on-scroll { visibility: hidden; }
+.show-on-scroll.shown { visibility: visible; }
+.show-on-5px{ visibility: hidden; }
+.show-on-5px.shown { visibility: visible; }
+#original{
+    -webkit-transition:width 2s, height 2s, background-color 0.5s, -webkit-transform 1s;
+    transition:width 2s, height 2s, background-color 0.5s, transform 2s;
+}
+#detail_original_soju{
+    -webkit-transition:width 2s, height 2s, background-color 1.5s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 1s, transform 2s;
+}
+#original:hover,#detail_original_soju:hover{
+    background-color: #A0D468;
 }

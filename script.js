@@ -17,8 +17,8 @@ function on_original(){
     
     m.style.right = '100px';
     M.style.display = 'block';
-    i.style.backgroundColor = '#ddd';
-    M.style.backgroundColor = '#ddd';
+    i.style.backgroundColor = '#A0D468';
+    //M.style.backgroundColor = '#ddd';
 }
 function out_original(){
     var M,m;
@@ -31,6 +31,20 @@ function out_original(){
     M.style.display = 'none';
     
 }
+window.addEventListener('scroll', function() {
+    var el = document.querySelector('.show-on-scroll');
+    
+    if(window.scrollY >= 300) el.classList.add('shown');
+    else el.classList.remove('shown');
+  }); //300px 스크롤하면 보이게 
+
+window.addEventListener('scroll', function() {
+    var el = document.querySelector('.show-on-5px');
+    
+    if(window.scrollY >= 5) el.classList.add('shown');
+    else el.classList.remove('shown');
+  }); //5x 스크롤하면 보이게 
+
 // /Scroll to a certain element
 /*
 function myFunction() {
