@@ -7,81 +7,109 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
+    <script type="text/javascript" src="SmoothIMGchange.js"></script>
 </head>
 
 <body>
     <section id="main">
-    <div id="nav" class="show-on-5px">
-        <img src="./img/logo.png" id="logo">
-        <a href="#history">소주의 역사</a>
-        <a href="#kind">소주의 종류</a>
-        <a href="#top">지역별 소주</a>
-        <!--display none 했다가 hover하면 보이게 할 수 있음 유용하게 쓸 것 같음-->
-        <a href="#history">소주의 종류</a>
-        <!--자바스크립트 쿼리셀렉터로, 페이지 인덱스 확인하고 그에따라 네비바 바꿔주는 거 생각해보기-->
-    </div>
-
-    <div id="background">
-        <a name="top"></a>
-        <video id="irin" preload="auto" autoplay="true" loop="loop" muted>
-            <source src="soju.mp4">
-        </video>
-    </div>
-    <div id="content">
-        <div id="history">
-            <a name="history"></a>
-            <h1>소주의 역사</h1>
-
-            <p>한국의 소주 한국의 소주(燒酒)는 전통적으로 쌀로 증류해왔지만,
-                일제 강점기와 한국 전쟁 이후부터 경제 성장기에 걸쳐 감자, 밀, 보리, 고구마, 타피오카 등의 전분을 첨가한 소주가 만들어지게 되었다.
-                소주는 원래는 증류식 소주만을 일컫는 말이었으나, 20세기 중반에 희석식 소주가 증류식 소주를 대체하면서 두 가지 종류의 술을 모두 이르는 말이 되었다. 현재 소주는 보통 값이 싸고
-                대중화한 희석식 소주를 말한다.
-                소주는 무색 투명하고 알코올 도수는 16.8%에서 53%까지 다양하다. 1990년대 이전에는 25% 이상이 대부분이었으나 이후 저도수 주류가 유행함에 따라 도수가 낮은 소주가 점점
-                늘어나고 있다. </p>
+        <div id="nav" class="show-on-5px">
+            <img src="./img/logo.png" id="logo">
+            <a href="#history">소주의 역사</a>
+            <a href="#kind">소주의 종류</a>
+            <a href="#top">지역별 소주</a>
+            <!--display none 했다가 hover하면 보이게 할 수 있음 유용하게 쓸 것 같음-->
+            <a href="#history">소주의 종류</a>
+            <!--자바스크립트 쿼리셀렉터로, 페이지 인덱스 확인하고 그에따라 네비바 바꿔주는 거 생각해보기-->
         </div>
-        <div id="kind">
-        <a name="kind"></a>
-        <h1>소주의 종류</h1>
-        <p>dslkjaflkjdfkljaskld<br><br><br><br><br><br><br>
-            <br><br><br>
-            <br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br>
-            <br><br>
-            <br><br><br><br><br><br>fjlksd<br></p>
-        </div>
-        <div>
 
+        <div id="background">
+            <a name="top"></a>
+            <video id="irin" preload="auto" autoplay="true" loop="loop" muted>
+                <source src="soju.mp4">
+            </video>
         </div>
-    </div>
-    <footer>
-        <input type="button" id="gotop" value="top" onclick="window.location.href = '#top'">
-    </footer>
-    </div>
-    
-    <script src="./script.js"></script>
+        <div id="content">
+            <div id="history">
+                <a name="history"></a>
+                <h1>소주의 역사</h1>
+
+                <p>한국의 소주 한국의 소주(燒酒)는 전통적으로 쌀로 증류해왔지만,
+                    일제 강점기와 한국 전쟁 이후부터 경제 성장기에 걸쳐 감자, 밀, 보리, 고구마, 타피오카 등의 전분을 첨가한 소주가 만들어지게 되었다.
+                    소주는 원래는 증류식 소주만을 일컫는 말이었으나, 20세기 중반에 희석식 소주가 증류식 소주를 대체하면서 두 가지 종류의 술을 모두 이르는 말이 되었다. 현재 소주는 보통 값이
+                    싸고
+                    대중화한 희석식 소주를 말한다.
+                    소주는 무색 투명하고 알코올 도수는 16.8%에서 53%까지 다양하다. 1990년대 이전에는 25% 이상이 대부분이었으나 이후 저도수 주류가 유행함에 따라 도수가 낮은 소주가 점점
+                    늘어나고 있다. </p>
+            </div>
+            <div id="kind">
+                <a name="kind"></a>
+                <h1>소주의 종류</h1>
+                <!-- 스무뜨 사진 넘기기 실험중 -->
+                <div id="sojukinds" style="left: 0px;">
+                    <div>
+                        <img src="./img/참이슬.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/좋은데이.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/처음처럼.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/잎새주.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <img src="./img/우린.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/한라산.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/맛있는 참.jpg" alt="">
+                    </div>
+
+                </div>
+                <p>dslkjaflkjdfkljaskld<br><br><br><br><br><br><br>
+                    <br><br><br>
+                    <br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br>
+                    <br><br>
+                    <br><br><br><br><br><br>fjlksd<br></p>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <footer>
+            <input type="button" id="gotop" value="top" onclick="window.location.href = '#top'">
+        </footer>
+        </div>
+
+        <script src="./script.js"></script>
     </section>
 
-    <section id="rightnav" class="show-on-scroll"> 
-    <div id="bigsoju">
-        <span class="box" id="original" onmouseover="on_original()" onmouseout="out_original()">오리지널 소주</span>
-        <span class="box" id="fruit">과일소주</span>
-        <span class="box" id="likesoju">소주같은소주</span>
-    </div>
-    <div id="detail_original_soju" onmouseover="on_original()" onmouseout="out_original()">
-        <span class="box">소주1</span>
-        <span class="box">소주2</span>
-        <span class="box">소주3</span>
-    </div>
-    <div id="detail_fruit_soju">
-        <span class="box">과일소주1</span>
-        <span class="box">과일소주2</span>
-        <span class="box">과일소주3</span>
-    </div>
-    <div id="detail_like_soju">
-        <span class="box">소주같은소주1</span>
-        <span class="box">소주같은소주2</span>
-        <span class="box">소주같은소주3</span>
-    </div>
+    <section id="rightnav" class="show-on-scroll">
+        <div id="bigsoju">
+            <span class="box" id="original" onmouseover="on_original()" onmouseout="out_original()">오리지널 소주</span>
+            <span class="box" id="fruit">과일소주</span>
+            <span class="box" id="likesoju">소주같은소주</span>
+        </div>
+        <div id="detail_original_soju" onmouseover="on_original()" onmouseout="out_original()">
+            <span class="box">소주1</span>
+            <span class="box">소주2</span>
+            <span class="box">소주3</span>
+        </div>
+        <div id="detail_fruit_soju">
+            <span class="box">과일소주1</span>
+            <span class="box">과일소주2</span>
+            <span class="box">과일소주3</span>
+        </div>
+        <div id="detail_like_soju">
+            <span class="box">소주같은소주1</span>
+            <span class="box">소주같은소주2</span>
+            <span class="box">소주같은소주3</span>
+        </div>
     </section>
 </body>
 
