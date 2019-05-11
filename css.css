@@ -17,7 +17,6 @@ body::-webkit-scrollbar {
 } /* body 스크롤 안보이게 하기 */
 #irin
 {
-    width: 1537px;
     z-index: 9;
 }
 /*네비바 관련 설정*/
