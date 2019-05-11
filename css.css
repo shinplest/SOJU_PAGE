@@ -116,7 +116,7 @@ nav a:hover::before{
     color: black;
 }
 #main{
-    width: 93%;
+    width: 94%;
 }
 #bigsoju{
     position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
