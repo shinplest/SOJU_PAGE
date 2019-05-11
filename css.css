@@ -124,7 +124,12 @@ nav a:hover::before{
     height: 100%; text-align: center;
     background-color: #2F3339;
     color: white;
-    z-index: 11;
+    z-index: 31;
+}
+#moving{
+    height: 70px; width: 100px;
+    display: block; text-align: center;
+    border-bottom: 1px solid #000000;
 }
 #detail_original_soju, #detail_fruit_soju, #detail_like_soju{
     display: none;
