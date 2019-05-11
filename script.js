@@ -31,6 +31,7 @@ function out_original(){
     M.style.display = 'none';
     
 }
+//스크롤 펑션 안넣고 진로페이지처럼 해봄
 window.addEventListener('scroll', function() {
     var el = document.querySelector('.show-on-scroll');
     
