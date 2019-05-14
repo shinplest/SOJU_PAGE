@@ -36,7 +36,6 @@ window.addEventListener('scroll', function() {
   }); //5x 스크롤하면 보이게 
 
 */
-
 document.querySelector('.xbutton').addEventListener('click', 
 function(){
     document.querySelector(".popup").style.display ='none';
