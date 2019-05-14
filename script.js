@@ -21,7 +21,7 @@ function on_original(){
     //M.style.backgroundColor = '#ddd';
 }
 function out_original(){
-    var M,m;
+    var M,m,i;
     m = document.getElementById("bigsoju");
     M= document.getElementById("detail_original_soju");
     i = document.getElementById("original");

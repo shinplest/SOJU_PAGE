@@ -6,7 +6,7 @@ html {
 
 body{
     margin: 0px;
-    //background: #222;
+    /*background: #222;*/
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 430;
 }
@@ -135,7 +135,7 @@ nav a:hover::before{
     position: absolute; position: fixed; top: 0px; right: 0; background-color: #2F3339;
     height: 100%; text-align: center;
     background-color: #2F3339;
-    color: white; z-index: 11;
+    color: white; z-index: 30;
 }
 
 .box{
