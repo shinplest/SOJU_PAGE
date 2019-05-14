@@ -163,3 +163,7 @@ nav a:hover::before{
 #original:hover,#detail_original_soju:hover{
     background-color: #A0D468;
 }
+span img{
+    width: 100%;
+    height: 100px;
+}
