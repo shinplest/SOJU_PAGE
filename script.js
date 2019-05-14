@@ -1,14 +1,3 @@
-var age = prompt("만 19세 이상만 이 페이지를 볼 수 있습니다. 생년월일을 입력하세요 ", "19970701");
-    if(age > 20000101)
-    {
-        alert("you cant");
-
-    }
-    else
-    {
-        alert(age);
-    }
-
 function on_original(){
     var M,m,i;
     m = document.getElementById("bigsoju");
@@ -31,7 +20,7 @@ function out_original(){
     M.style.display = 'none';
     
 }
-//스크롤 펑션 안넣고 진로페이지처럼 해봄
+/*
 window.addEventListener('scroll', function() {
     var el = document.querySelector('.show-on-scroll');
     
@@ -46,13 +35,6 @@ window.addEventListener('scroll', function() {
     else el.classList.remove('shown');
   }); //5x 스크롤하면 보이게 
 
-// /Scroll to a certain element
-/*
-function myFunction() {
-    var elmnt = document.getElementById("kind");
-    elmnt.scrollIntoView({
-        behavior: 'smooth'
-    });
-}
 */
+
 

@@ -122,7 +122,7 @@ nav a:hover::before{
     position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
     height: 100%; text-align: center;
     background-color: #2F3339;
-    color: white;width: 6%;
+    color: white;width: 7%;
     z-index: 31;
 }
 #moving{
@@ -148,10 +148,13 @@ nav a:hover::before{
     /*background-color: #9e9d9d;*/
     cursor: pointer;
 }
+
+
 .show-on-scroll { visibility: hidden; }
 .show-on-scroll.shown { visibility: visible; }
 .show-on-5px{ visibility: hidden; }
 .show-on-5px.shown { visibility: visible; }
+
 #original{
     -webkit-transition:width 2s, height 2s, background-color 0.5s, -webkit-transform 1s;
     transition:width 2s, height 2s, background-color 0.5s, transform 2s;
