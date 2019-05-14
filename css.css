@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 /*네비바 관련 설정*/
 .container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 header{
@@ -53,7 +53,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 75px;
     padding-top: 22px;  
 
     position: relative;
