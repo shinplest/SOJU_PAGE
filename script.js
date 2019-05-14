@@ -37,4 +37,9 @@ window.addEventListener('scroll', function() {
 
 */
 
+document.querySelector('.xbutton').addEventListener('click', 
+function(){
+    document.querySelector(".popup").style.display ='none';
+})
+
 
