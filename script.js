@@ -15,7 +15,7 @@ function on_original(){
     M = document.getElementById("detail_original_soju");
     i = document.getElementById("original");
     
-    m.style.right = '100px';
+    m.style.right = '6%';
     M.style.display = 'block';
     i.style.backgroundColor = '#A0D468';
     //M.style.backgroundColor = '#ddd';
