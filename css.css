@@ -119,15 +119,16 @@ nav a:hover::before{
     width: 94%;
 }
 #bigsoju{
-    position: absolute; position: fixed; top: 0px; right: 0; background-color: rebeccapurple;
+    position: absolute; position: fixed; top: 0px; right: 0;
     height: 100%; text-align: center;
     background-color: #2F3339;
+    
     color: white;width: 6.5%;
     z-index: 31; overflow: scroll;
 }
 #bigsoju::-webkit-scrollbar{display: none;}
 #moving{
-    height: 70px; width: 100px;
+    height: 60px; width: 100%;
     display: block; text-align: center;
     border-bottom: 1px solid #000000;
 }
