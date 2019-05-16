@@ -1,19 +1,19 @@
-function on_original(){
+function on_hite(){
     var M,m,i;
     m = document.getElementById("bigsoju");
-    M = document.getElementById("detail_original_soju");
-    i = document.getElementById("original");
+    M = document.getElementById("detail_hite_soju");
+    i = document.getElementById("hite");
     
     m.style.right = '6.5%';
     M.style.display = 'block';
     i.style.backgroundColor = 'rgba(160, 212, 104, 0.705)';
     //M.style.backgroundColor = '#ddd';
 }
-function out_original(){
+function out_hite(){
     var M,m,i;
     m = document.getElementById("bigsoju");
-    M= document.getElementById("detail_original_soju");
-    i = document.getElementById("original");
+    M= document.getElementById("detail_hite_soju");
+    i = document.getElementById("hite");
 
     i.style.backgroundColor = 'rgba(47, 51, 57, 0.137)';
     m.style.right = '0px';

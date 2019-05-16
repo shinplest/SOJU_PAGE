@@ -132,7 +132,7 @@ nav a:hover::before{
     display: block; text-align: center;
     border-bottom: 1px solid #000000;
 }
-#detail_original_soju, #detail_fruit_soju, #detail_like_soju{
+#detail_hite_soju, #detail_fruit_soju, #detail_like_soju{
     display: none;
     position: absolute; position: fixed; top: 0px; right: 0; background-color: #2F3339;
     width: 6.5%;
@@ -157,20 +157,18 @@ nav a:hover::before{
 .show-on-5px{ visibility: hidden; }
 .show-on-5px.shown { visibility: visible; }
 
-#original{
+#hite{
     -webkit-transition:width 2s, height 2s, background-color 0.5s, -webkit-transform 1s;
     transition:width 2s, height 2s, background-color 0.5s, transform 2s;
 }
-#detail_original_soju{
+#detail_hite_soju{
     -webkit-transition:width 2s, height 2s, background-color 1.5s, -webkit-transform 2s;
     transition:width 2s, height 2s, background-color 1s, transform 2s;
 }
-#original:hover,#detail_original_soju:hover{
+#hite:hover,#detail_hite_soju:hover{
     background-color: rgba(160, 212, 104, 0.705);
 }
-#original:hover{
-    background-color: rgba(160, 212, 104, 0.705);
-}
+
 span img{
     width: 100%;
     height: 100%;
