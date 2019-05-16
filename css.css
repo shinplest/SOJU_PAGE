@@ -1,6 +1,7 @@
 /*css로 smooth scrolling (only chrome)*/
 html {
     scroll-behavior: smooth;
+    overflow: hidden;
   }
 
 body{
@@ -210,3 +211,5 @@ input{
     transform: rotate(45deg);
     cursor: pointer;
 }
+
+
