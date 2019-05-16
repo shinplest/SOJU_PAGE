@@ -116,14 +116,14 @@ nav a:hover::before{
     color: black;
 }
 #main{
-    width: 94%;
+    width: 100%;
 }
 #bigsoju{
     position: absolute; position: fixed; top: 0px; right: 0;
     height: 100%; text-align: center;
-    background-color: #2F3339;
+    background-color:  rgba(47, 51, 57, 0.137);
     
-    color: white;width: 6.5%;
+    color: white;width: 6.2%;
     z-index: 31; overflow: scroll;
 }
 #bigsoju::-webkit-scrollbar{display: none;}
@@ -135,9 +135,9 @@ nav a:hover::before{
 #detail_original_soju, #detail_fruit_soju, #detail_like_soju{
     display: none;
     position: absolute; position: fixed; top: 0px; right: 0; background-color: #2F3339;
-    width: 6%;
+    width: 6.5%;
     height: 100%; text-align: center;
-    background-color: #2F3339;
+    background-color:  rgba(47, 51, 57, 0.137);
     color: white; z-index: 30;
 }
 
@@ -166,7 +166,10 @@ nav a:hover::before{
     transition:width 2s, height 2s, background-color 1s, transform 2s;
 }
 #original:hover,#detail_original_soju:hover{
-    background-color: #A0D468;
+    background-color: rgba(160, 212, 104, 0.705);
+}
+#original:hover{
+    background-color: rgba(160, 212, 104, 0.705);
 }
 span img{
     width: 100%;

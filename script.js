@@ -4,9 +4,9 @@ function on_original(){
     M = document.getElementById("detail_original_soju");
     i = document.getElementById("original");
     
-    m.style.right = '6%';
+    m.style.right = '6.5%';
     M.style.display = 'block';
-    i.style.backgroundColor = '#A0D468';
+    i.style.backgroundColor = 'rgba(160, 212, 104, 0.705)';
     //M.style.backgroundColor = '#ddd';
 }
 function out_original(){
@@ -15,7 +15,7 @@ function out_original(){
     M= document.getElementById("detail_original_soju");
     i = document.getElementById("original");
 
-    i.style.backgroundColor = '#2F3339';
+    i.style.backgroundColor = 'rgba(47, 51, 57, 0.137)';
     m.style.right = '0px';
     M.style.display = 'none';
     
