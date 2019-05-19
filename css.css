@@ -97,28 +97,25 @@ nav a:hover::before{
 #history{
     background-color: #fffde5
 }
-#content{
+.inner{
     margin-left: 5%;
     margin-right: 6.5%;
-}
-#content #distilled{
-    width: 100%
-    !important;
 }
 
 /*수동 슬라이드 시작*/
 #VS{
-    display: inline;
+    margin-left: 10%;
+    
 }
 #distilled{
     margin-right: 0px;
 }
 *{margin:0;padding:0;}
   ul,li{list-style:none;}
-  #distilled{height:400px; position:relative;overflow:visible;}
+  #distilled{height:400px; position:relative;overflow: hidden;}
   #distilled ul{width:800%;height:100%;transition:1s;}
   #distilled ul:after{content:"";display:block;clear:both;}
-  #distilled li{float:left;width:12.5%;height:100%;}
+  #distilled li{float:left;width:12.5%;height:90%;}
   #distilled li:nth-child(1){
     background-image:url('./img/증류식소주/일품진로.jpeg');background-repeat: no-repeat;
     background-position: center center; background-size: contain;}
@@ -145,7 +142,7 @@ nav a:hover::before{
     background-position: center center; background-size: contain;}
   #distilled input{display:none;}
   #distilled label{display:inline-block;vertical-align:middle;width:10px;height:10px;border:2px solid #666;background:#fff;transition:0.3s;border-radius:50%;cursor:pointer;}
-  #distilled .pos{text-align:center;position:absolute;bottom:-50px;left:0;width:100%;text-align:center;}
+  #distilled .pos{text-align:center;position:absolute;bottom:0px;left:0;width:100%;text-align:center;}
   #pos1:checked~ul{margin-left:0%;}
   #pos2:checked~ul{margin-left:-100%;}
   #pos3:checked~ul{margin-left:-200%;}
@@ -164,10 +161,10 @@ nav a:hover::before{
   #pos8:checked~.pos>label:nth-child(8){background:#666;}
   
   ul,li{list-style:none;}
-  #diluted{height:400px;position:relative;overflow:visible;}
+  #diluted{height:450px;position:relative; overflow: hidden;}
   #diluted ul{width:800%;height:100%;transition:1s;}
   #diluted ul:after{content:"";display:block;clear:both;}
-  #diluted li{float:left;width:12.5%;height:100%;}
+  #diluted li{float:left;width:12.5%;height:90%;}
   #diluted li:nth-child(1){
     background-image:url('./img/희석식소주/참이슬.jpg');background-repeat: no-repeat;
     background-position: center center; background-size: contain;}
@@ -194,7 +191,7 @@ nav a:hover::before{
     background-position: center center; background-size: contain;}
   #diluted input{display:none;}
   #diluted label{display:inline-block;vertical-align:middle;width:10px;height:10px;border:2px solid #666;background:#fff;transition:0.3s;border-radius:50%;cursor:pointer;}
-  #diluted .POS{text-align:center;position:absolute;bottom:-70px;left:0;width:100%;text-align:center;}
+  #diluted .POS{text-align:center;position:absolute;bottom:0px;left:0;width:100%;text-align:center;}
   #POS1:checked~ul{margin-left:0%;}
   #POS2:checked~ul{margin-left:-100%;}
   #POS3:checked~ul{margin-left:-200%;}
