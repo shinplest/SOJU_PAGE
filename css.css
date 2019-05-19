@@ -310,11 +310,7 @@ span img{
 
 
 .popup-content{
-    width: 500px;
-    height: 300px;
-    opacity: 1;
-    background-color: ##2ecc71;
-    opacity: 0.9;
+    width: 45%;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
@@ -324,36 +320,38 @@ span img{
 input[type = "text"]{
     border: 0;
     background: none;
-    display: block;
+    display: inline;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #d63031;
+    border: 3px solid #d63031;
     padding: 14px 10px;
-    width: 200px;
+    width: 180px;
     outline: none;
     color: black;
     border-radius: 24px;
     transition: 0.25s;
+    font-size: 13px;
+    color: white;
 }
 input[type = "text"]:focus{
     width:  270px;
     border-color: #2ecc71;
+    font-size: 15px;
 }
 .submit{
-    border: 0;
     background: none;
-    display: block;
+    display: inline;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #2ecc71;
+    border: 3px solid #2ecc71;
     padding: 14px 40px;
     outline: none;
-    color: black;
+    color: white;
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
     width: 60px;
-    font-size: 10px;
+    font-size: 13px;
 }
 .submit:hover{
     background: #2ecc71;
@@ -366,6 +364,16 @@ input[type = "text"]:focus{
     font-size: 42px;
     transform: rotate(45deg);
     cursor: pointer;
+}
+
+#warning{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#ruready{
+    margin: 50px;
 }
 
 
