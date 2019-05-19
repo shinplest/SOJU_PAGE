@@ -50,13 +50,13 @@ document.querySelector('.xbutton').addEventListener('click',
   })*/
 
 function myFunction() {
-  if (document.getElementById("myText").value <= 20) {
-    alert("You cant");
-  } else if (document.getElementById("myText").value > 20) {
+  if (document.getElementById("myText").value > 2000) {
+    alert("미성년자는 열람이 불가능합니다.");
+  } else if (document.getElementById("myText").value <= 2000) {
     alert("이제부터 저희 페이지의 모든 자료를 열람하실 수 있습니다.");
     document.querySelector(".popup").style.display = 'none';
     document.querySelector("html").style.overflow = 'auto';
   } else {
-    alert("잘못 입력하셨습니다.")
+    alert("잘못 입력하셨습니다. ex) 1993");
   }
 }
