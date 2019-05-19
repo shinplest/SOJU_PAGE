@@ -49,10 +49,10 @@ function () {
   document.querySelector("html").style.overflow = 'auto';
 })*/
 
+
 function alertfunction() {
-  if (document.getElementById("myText").placeholder == "출생년도") {
+  if (document.getElementById("myText").value == "") {
     alert("출생년도를 입력하세요.");
-    document.getElementById("myText").placeholder = "여기에 출생년도를 입력하세요";
   } else if (document.getElementById("myText").value > 2000) {
     alert("미성년자는 열람이 불가능합니다.");
   } else if (document.getElementById("myText").value <= 2000) {
