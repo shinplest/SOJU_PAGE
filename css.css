@@ -96,6 +96,115 @@ nav a:hover::before{
 #history{
     background-color: #fffde5
 }
+#content{
+    margin-left: 5%;
+    margin-right: 6.5%;
+}
+
+/*수동 슬라이드 시작*/
+#VS{
+    display: inline;
+}
+*{margin:0;padding:0;}
+  ul,li{list-style:none;}
+  #distilled{height:400px; position:relative;overflow:visible;}
+  #distilled ul{width:800%;height:100%;transition:1s;}
+  #distilled ul:after{content:"";display:block;clear:both;}
+  #distilled li{float:left;width:12.5%;height:100%;}
+  #distilled li:nth-child(1){
+    background-image:url('./img/증류식소주/일품진로.jpeg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+  #distilled li:nth-child(2){
+    background-image:url('./img/증류식소주/대장부.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+  #distilled li:nth-child(3){
+    background-image:url('./img/증류식소주/안동소주일품.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain; }
+  #distilled li:nth-child(4){
+    background-image:url('./img/증류식소주/화요2.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+  #distilled li:nth-child(5){
+    background-image:url('./img/증류식소주/문배술.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+ #distilled li:nth-child(6){
+    background-image:url('./img/증류식소주/오크젠.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+ #distilled li:nth-child(7){
+    background-image:url('./img/증류식소주/려.png');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+ #distilled li:nth-child(8){
+    background-image:url('./img/증류식소주/연화.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+  #distilled input{display:none;}
+  #distilled label{display:inline-block;vertical-align:middle;width:10px;height:10px;border:2px solid #666;background:#fff;transition:0.3s;border-radius:50%;cursor:pointer;}
+  #distilled .pos{text-align:center;position:absolute;bottom:-50px;left:0;width:100%;text-align:center;}
+  #pos1:checked~ul{margin-left:0%;}
+  #pos2:checked~ul{margin-left:-100%;}
+  #pos3:checked~ul{margin-left:-200%;}
+  #pos4:checked~ul{margin-left:-300%;}
+  #pos5:checked~ul{margin-left:-400%;}
+  #pos6:checked~ul{margin-left:-500%;}
+  #pos7:checked~ul{margin-left:-600%;}
+  #pos8:checked~ul{margin-left:-700%;}
+  #pos1:checked~.pos>label:nth-child(1){background:#666;}
+  #pos2:checked~.pos>label:nth-child(2){background:#666;}
+  #pos3:checked~.pos>label:nth-child(3){background:#666;}
+  #pos4:checked~.pos>label:nth-child(4){background:#666;}
+  #pos5:checked~.pos>label:nth-child(5){background:#666;}
+  #pos6:checked~.pos>label:nth-child(6){background:#666;}
+  #pos7:checked~.pos>label:nth-child(7){background:#666;}
+  #pos8:checked~.pos>label:nth-child(8){background:#666;}
+  
+  ul,li{list-style:none;}
+  #diluted{height:400px;position:relative;overflow:visible;}
+  #diluted ul{width:800%;height:100%;transition:1s;}
+  #diluted ul:after{content:"";display:block;clear:both;}
+  #diluted li{float:left;width:12.5%;height:100%;}
+  #diluted li:nth-child(1){
+    background-image:url('./img/희석식소주/참이슬.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+  #diluted li:nth-child(2){
+    background-image:url('./img/희석식소주/처음처럼.png');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+  #diluted li:nth-child(3){
+    background-image:url('./img/희석식소주/이제우린.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain; }
+  #diluted li:nth-child(4){
+    background-image:url('./img/희석식소주/맛있는\ 참.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+  #diluted li:nth-child(5){
+    background-image:url('./img/희석식소주/C1.png');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+ #diluted li:nth-child(6){
+    background-image:url('./img/희석식소주/좋은데이.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+ #diluted li:nth-child(7){
+    background-image:url('./img/희석식소주/잎새주.JPG');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+ #diluted li:nth-child(8){
+    background-image:url('./img/희석식소주/한라산.jpg');background-repeat: no-repeat;
+    background-position: center center; background-size: contain;}
+  #diluted input{display:none;}
+  #diluted label{display:inline-block;vertical-align:middle;width:10px;height:10px;border:2px solid #666;background:#fff;transition:0.3s;border-radius:50%;cursor:pointer;}
+  #diluted .POS{text-align:center;position:absolute;bottom:-70px;left:0;width:100%;text-align:center;}
+  #POS1:checked~ul{margin-left:0%;}
+  #POS2:checked~ul{margin-left:-100%;}
+  #POS3:checked~ul{margin-left:-200%;}
+  #POS4:checked~ul{margin-left:-300%;}
+  #POS5:checked~ul{margin-left:-400%;}
+  #POS6:checked~ul{margin-left:-500%;}
+  #POS7:checked~ul{margin-left:-600%;}
+  #POS8:checked~ul{margin-left:-700%;}
+  #POS1:checked~.POS>label:nth-child(1){background:#666;}
+  #POS2:checked~.POS>label:nth-child(2){background:#666;}
+  #POS3:checked~.POS>label:nth-child(3){background:#666;}
+  #POS4:checked~.POS>label:nth-child(4){background:#666;}
+  #POS5:checked~.POS>label:nth-child(5){background:#666;}
+  #POS6:checked~.POS>label:nth-child(6){background:#666;}
+  #POS7:checked~.POS>label:nth-child(7){background:#666;}
+  #POS8:checked~.POS>label:nth-child(8){background:#666;}
+/*수동 슬라이드 끝*/
+
 
 /*from now on about button or sth*/
 #gotop{
@@ -118,6 +227,9 @@ nav a:hover::before{
 #main{
     width: 100%;
 }
+
+
+/* rightnav 설정 시작*/
 #bigsoju{
     position: absolute; position: fixed; top: 0px; right: 0;
     height: 100%; text-align: center;
@@ -132,7 +244,7 @@ nav a:hover::before{
     display: block; text-align: center;
     border-bottom: 1px solid #000000;
 }
-#detail_hite_soju, #detail_fruit_soju, #detail_like_soju{
+#detail_hite_soju, #detail_LOTTE_soju, #detail_MUHAK_soju, #detail_kumbokju_soju{
     display: none;
     position: absolute; position: fixed; top: 0px; right: 0; background-color: #2F3339;
     width: 6.5%;
@@ -150,7 +262,6 @@ nav a:hover::before{
     /*background-color: #9e9d9d;*/
     cursor: pointer;
 }
-
 
 .show-on-scroll { visibility: hidden; }
 .show-on-scroll.shown { visibility: visible; }
@@ -173,6 +284,8 @@ span img{
     width: 100%;
     height: 100%;
 }
+/* rightnav 설정 종료*/
+
 
 /*popup css*/
 .popup{
