@@ -313,7 +313,8 @@ span img{
     width: 500px;
     height: 300px;
     opacity: 1;
-    background-color: white;
+    background-color: ##2ecc71;
+    opacity: 0.9;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
