@@ -307,7 +307,7 @@ span img{
 
 
 .popup-content{
-    width: 45%;
+    width: 48%;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
@@ -370,7 +370,11 @@ input[type = "text"]:focus{
 }
 
 #ruready{
-    margin: 50px;
+    margin: 30px;
+}
+
+label{
+    color:gray;
 }
 
 

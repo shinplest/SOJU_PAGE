@@ -37,20 +37,12 @@ window.addEventListener('scroll', function() {
   }); //5x 스크롤하면 보이게 
 
 */
-document.querySelector('.xbutton').addEventListener('click',
-  function () {
-    document.querySelector(".popup").style.display = 'none';
-    document.querySelector("html").style.overflow = 'auto';
-  })
-
-/*document.querySelector('.submit').addEventListener('click',
-function () {
-  document.querySelector(".popup").style.display = 'none';
-  document.querySelector("html").style.overflow = 'auto';
-})*/
 
 
 function alertfunction() {
+  if(document.getElementById("cuki").checked != true){
+    alert("쿠키정보 사용동의에 체크해주세요.");
+  }
   if (document.getElementById("myText").value == "") {
     alert("출생년도를 입력하세요.");
   } else if (document.getElementById("myText").value > 2000) {
