@@ -249,7 +249,8 @@ nav a:hover::before{
     display: block; text-align: center;
     border-bottom: 1px solid #000000;
 }
-#detail_hite_soju, #detail_LOTTE_soju, #detail_MUHAK_soju, #detail_kumbokju_soju{
+#detail_hite_soju, #detail_LOTTE_soju, #detail_MUHAK_soju, #detail_kumbokju_soju, #detail_Bohae_soju
+, #detail_DAESUN_soju, #detail_THEMACKISS_soju{
     display: none;
     position: absolute; position: fixed; top: 0px; right: 0; background-color: #2F3339;
     width: 6.5%;
