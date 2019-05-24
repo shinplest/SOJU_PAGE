@@ -7,7 +7,6 @@ function on_hite() {
   m.style.right = '6.5%';
   M.style.display = 'block';
   i.style.backgroundColor = 'rgba(160, 212, 104, 0.705)';
-  //M.style.backgroundColor = '#ddd';
 }
 
 function out_hite() {
@@ -16,7 +15,29 @@ function out_hite() {
   M = document.getElementById("detail_hite_soju");
   i = document.getElementById("hite");
 
-  i.style.backgroundColor = 'rgba(47, 51, 57, 0.137)';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  m.style.right = '0px';
+  M.style.display = 'none';
+
+}
+function on_LOTTE() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_LOTTE_soju");
+  i = document.getElementById("LOTTE");
+
+  m.style.right = '6.5%';
+  M.style.display = 'block';
+  i.style.backgroundColor = 'rgba(253, 137, 191, 0.705)';
+}
+
+function out_LOTTE() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_LOTTE_soju");
+  i = document.getElementById("LOTTE");
+
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
   m.style.right = '0px';
   M.style.display = 'none';
 
