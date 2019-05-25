@@ -40,7 +40,132 @@ function out_LOTTE() {
   i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
   m.style.right = '0px';
   M.style.display = 'none';
+}
+function on_MUHAK() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_MUHAK_soju");
+  i = document.getElementById("MUHAK");
 
+  m.style.right = '6.5%';
+  M.style.display = 'block';
+  i.style.backgroundColor = '#55d6aa';
+}
+
+function out_MUHAK() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_MUHAK_soju");
+  i = document.getElementById("MUHAK");
+
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  m.style.right = '0px';
+  M.style.display = 'none';
+}
+function on_kumbokju() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_kumbokju_soju");
+  i = document.getElementById("kumbokju");
+
+  m.style.right = '6.5%';
+  M.style.display = 'block';
+  i.style.backgroundColor = '#55d6ab8e';
+}
+
+function out_kumbokju() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_kumbokju_soju");
+  i = document.getElementById("kumbokju");
+
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  m.style.right = '0px';
+  M.style.display = 'none';
+}
+function on_Bohae() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_Bohae_soju");
+  i = document.getElementById("Bohae");
+
+  m.style.right = '6.5%';
+  M.style.display = 'block';
+  i.style.backgroundColor = '#55d6aa';
+}
+
+function out_Bohae() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_Bohae_soju");
+  i = document.getElementById("Bohae");
+
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  m.style.right = '0px';
+  M.style.display = 'none';
+}
+function on_DAESUN() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_DAESUN_soju");
+  i = document.getElementById("DAESUN");
+
+  m.style.right = '6.5%';
+  M.style.display = 'block';
+  i.style.backgroundColor = '#55d6aa';
+}
+
+function out_DAESUN() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_DAESUN_soju");
+  i = document.getElementById("DAESUN");
+
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  m.style.right = '0px';
+  M.style.display = 'none';
+}
+function on_THEMACKISS() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_THEMACKISS_soju");
+  i = document.getElementById("THEMACKISS");
+
+  m.style.right = '6.5%';
+  M.style.display = 'block';
+  i.style.backgroundColor = '#55d6aa';
+}
+
+function out_THEMACKISS() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_THEMACKISS_soju");
+  i = document.getElementById("THEMACKISS");
+
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  m.style.right = '0px';
+  M.style.display = 'none';
+}
+function on_HALLASAN() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_HALLASAN_soju");
+  i = document.getElementById("HALLASAN");
+
+  m.style.right = '6.5%';
+  M.style.display = 'block';
+  i.style.backgroundColor = '#55d6aa';
+}
+
+function out_HALLASAN() {
+  var M, m, i;
+  m = document.getElementById("bigsoju");
+  M = document.getElementById("detail_HALLASAN_soju");
+  i = document.getElementById("HALLASAN");
+
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  m.style.right = '0px';
+  M.style.display = 'none';
 }
 /*
 window.addEventListener('scroll', function() {

@@ -203,6 +203,7 @@ nav a:hover::before{
   #POS8:checked~.POS>label:nth-child(8){background:#666;}
 /*수동 슬라이드 끝*/
 
+/*table 속성*/
 
 /*from now on about button or sth*/
 #gotop{
@@ -243,13 +244,16 @@ nav a:hover::before{
     border-bottom: 1px solid #000000;
 }
 #detail_hite_soju, #detail_LOTTE_soju, #detail_MUHAK_soju, #detail_kumbokju_soju, #detail_Bohae_soju
-, #detail_DAESUN_soju, #detail_THEMACKISS_soju{
+, #detail_DAESUN_soju, #detail_THEMACKISS_soju, #detail_HALLASAN_soju{
     display: none;
     position: absolute; position: fixed; top: 0px; right: 0; background-color: #2F3339;
     width: 6.5%;
     height: 100%; text-align: center;
     background-color:  rgba(47, 51, 57, 0.137);
     color: white; z-index: 30; overflow: scroll;
+
+    -webkit-transition:width 2s, height 2s, background-color 1.5s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 1s, transform 2s;
 }
 #detail_hite_soju::-webkit-scrollbar{display: none;}
 #detail_LOTTE_soju::-webkit-scrollbar{display: none;}
@@ -258,10 +262,11 @@ nav a:hover::before{
 #detail_Bohae_soju::-webkit-scrollbar{display: none;}
 #detail_DAESUN_soju::-webkit-scrollbar{display: none;}
 #detail_THEMACKISS_soju::-webkit-scrollbar{display: none;}
+#detail_HALLASAN_soju::-webkit-scrollbar{display: none;}
 .box{
     height: 14%; width: 100%;
     display: block; text-align: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 0px solid #000000;
 }
 .box:hover{
     /*background-color: #9e9d9d;*/
@@ -273,29 +278,35 @@ nav a:hover::before{
 .show-on-5px{ visibility: hidden; }
 .show-on-5px.shown { visibility: visible; }
 
-#hite{
+#hite, #LOTTE, #MUHAK, #kumbokju, #Bohae, #DAESUN, #THEMACKISS, #HALLASAN{
     -webkit-transition:width 2s, height 2s, background-color 0.5s, -webkit-transform 1s;
     transition:width 2s, height 2s, background-color 0.5s, transform 2s;
-}
-#detail_hite_soju{
-    -webkit-transition:width 2s, height 2s, background-color 1.5s, -webkit-transform 2s;
-    transition:width 2s, height 2s, background-color 1s, transform 2s;
 }
 #hite:hover,#detail_hite_soju:hover{
     background-color: rgba(160, 212, 104, 0.705);
 }
-#LOTTE{
-    -webkit-transition:width 2s, height 2s, background-color 0.5s, -webkit-transform 1s;
-    transition:width 2s, height 2s, background-color 0.5s, transform 2s;
-}
-#detail_LOTTE_soju{
-    -webkit-transition:width 2s, height 2s, background-color 1.5s, -webkit-transform 2s;
-    transition:width 2s, height 2s, background-color 1s, transform 2s;
-}
 #LOTTE:hover,#detail_LOTTE_soju:hover{
     background-color: rgba(253, 137, 191, 0.705);
 }
+#MUHAK:hover, #detail_MUHAK_soju:hover{
+    background-color: #55d6ab8e;
+}
+#kumbokju:hover, ##detail_kumbokju_soju:hover{
+    background-color: salmon;
+}
+#Bohae:hover, #detail_Bohae_soju:hover{
 
+}
+#DAESUN:hover, #detail_DAESUN_soju:hover{
+
+}
+#THEMACKISS:hover, #detail_THEMACKISS_soju:hover{
+
+}
+
+#HALLASAN:hover, #detail_HALLASAN_soju:hover{
+
+}
 
 span img{
     width: 100%;
