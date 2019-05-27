@@ -203,3 +203,34 @@ function alertfunction() {
     }
   }
 }
+
+//svg showing funtion
+function show(resign){
+  switch(resign)
+  {
+    case seoul:
+        document.getElementById("seoul").style.display = "inline";
+        break;
+    case gangwon:
+        document.getElementById("gangwon").style.display = "inline";
+        break;
+  }
+}
+function hide(resign){
+  switch(resign)
+  {
+    case seoul:
+        document.getElementById("seoul").style.display = "none";
+        break;
+    case gangwon:
+        document.getElementById("gangwon").style.display = "none";
+        break;
+  }
+}
+function maketrans(){
+  this.style.opacity = "0.5";
+}
+function makeown(){
+  this.style.opacity = "1";
+}
+

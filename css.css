@@ -95,7 +95,6 @@ nav a:hover::before{
 
 
 #history{
-    background-color: #fffde5
 }
 .inner{
     margin-left: 5%;
@@ -423,5 +422,4 @@ input[type = "text"]:focus{
 label{
     color:gray;
 }
-
 
