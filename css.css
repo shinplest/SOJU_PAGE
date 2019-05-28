@@ -105,12 +105,14 @@ nav a:hover::before{
 *{margin:0;padding:0;}
   ul,li{list-style:none;}
   #distilled{height:450px; position:relative; overflow: hidden;}
-  #distilled ul{width:800%;height:100%;transition:1s;}
+  #distilled ul{height:100%;transition:1s;}
   #distilled ul:after{content:"";display:block;clear:both;}
-  #distilled li{ width:12.5%;height:90%;}
+  #distilled li{height:90%;}
   
   #distilled ul{width:calc(100% * 8);display:flex; animation:slide 24s infinite;} /* slide를 24초동안 진행하며 무한반복 함 */
   #distilled li{width:calc(100% / 8);height:90%;}
+  #diluted ul{width:calc(100% * 8);display:flex; animation:slide 24s infinite;} /* slide를 24초동안 진행하며 무한반복 함 */
+  #diluted li{width:calc(100% / 8);height:90%;}
   @keyframes slide {
     0% {margin-left:0;} /* 0 ~ 6  : 정지 */
     6% {margin-left:0;} /* 10 ~ 12.5 : 변이 */
@@ -178,9 +180,9 @@ nav a:hover::before{
   
   ul,li{list-style:none;}
   #diluted{height:450px;position:relative; overflow: hidden;}
-  #diluted ul{width:800%;height:100%;transition:1s;}
+  #diluted ul{height:100%;transition:1s;}
   #diluted ul:after{content:"";display:block;clear:both;}
-  #diluted li{float:left;width:12.5%;height:90%;}
+  #diluted li{float:left;height:90%;}
   #diluted li:nth-child(1){
     background-image:url('./img/희석식소주/참이슬.jpg');background-repeat: no-repeat;
     background-position: center center; background-size: contain;}
@@ -227,7 +229,10 @@ nav a:hover::before{
 /*수동 슬라이드 끝*/
 
 /*table 속성*/
-
+td img{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
 /*from now on about button or sth*/
 #gotop{
     float: right;
