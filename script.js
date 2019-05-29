@@ -20,6 +20,7 @@ function out_hite() {
   M.style.display = 'none';
 
 }
+
 function on_LOTTE() {
   var M, m, i;
   m = document.getElementById("bigsoju");
@@ -41,6 +42,7 @@ function out_LOTTE() {
   m.style.right = '0px';
   M.style.display = 'none';
 }
+
 function on_MUHAK() {
   var M, m, i;
   m = document.getElementById("bigsoju");
@@ -62,6 +64,7 @@ function out_MUHAK() {
   m.style.right = '0px';
   M.style.display = 'none';
 }
+
 function on_kumbokju() {
   var M, m, i;
   m = document.getElementById("bigsoju");
@@ -83,6 +86,7 @@ function out_kumbokju() {
   m.style.right = '0px';
   M.style.display = 'none';
 }
+
 function on_Bohae() {
   var M, m, i;
   m = document.getElementById("bigsoju");
@@ -104,6 +108,7 @@ function out_Bohae() {
   m.style.right = '0px';
   M.style.display = 'none';
 }
+
 function on_DAESUN() {
   var M, m, i;
   m = document.getElementById("bigsoju");
@@ -125,6 +130,7 @@ function out_DAESUN() {
   m.style.right = '0px';
   M.style.display = 'none';
 }
+
 function on_THEMACKISS() {
   var M, m, i;
   m = document.getElementById("bigsoju");
@@ -146,6 +152,7 @@ function out_THEMACKISS() {
   m.style.right = '0px';
   M.style.display = 'none';
 }
+
 function on_HALLASAN() {
   var M, m, i;
   m = document.getElementById("bigsoju");
@@ -183,7 +190,16 @@ window.addEventListener('scroll', function() {
   }); //5x 스크롤하면 보이게 
 
 */
-
+var c = 0;
+function pop() {
+  if (c == 0) {
+    document.getElementById("alertpopup").style.display = "block";
+    c = 1;
+  } else {
+    document.getElementById("alertpopup").style.display = "none";
+    c = 0;
+  }
+}
 
 function alertfunction() {
   var year = document.getElementById("myText").value;
@@ -194,8 +210,8 @@ function alertfunction() {
       alert("출생년도를 입력하세요.");
     } else if (year > 2000) {
       alert("미성년자는 열람이 불가능합니다.");
-    } else if (1900 < year && year<= 2000) {
-      alert("이제부터 저희 페이지의 모든 자료를 열람하실 수 있습니다.");
+    } else if (1900 < year && year <= 2000) {
+      pop();
       document.querySelector(".popup").style.display = 'none';
       document.querySelector("html").style.overflow = 'auto';
     } else {
@@ -203,4 +219,3 @@ function alertfunction() {
     }
   }
 }
-

@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans:400" rel="stylesheet"> <!--'Black Han Sans'-->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap&subset=korean" rel="stylesheet"><!--'Noto Sans KR'-->
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans:400" rel="stylesheet">
+    <!--'Black Han Sans'-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap&subset=korean" rel="stylesheet">
+    <!--'Noto Sans KR'-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140146867-1"></script>
@@ -69,7 +71,7 @@
                 </div>
 
                 <div class="inner">
-                    <table border="0" width="100%"style="border-collapse:collapse;">
+                    <table border="0" width="100%" style="border-collapse:collapse;">
                         <tr>
                             <td align="center">
                                 <h2>증류식 소주</h2>
@@ -150,30 +152,31 @@
                 <a name="region"></a>
                 <h1>지역별 소주</h1>
                 <h3>궁금한 지역에 마우스를 올려보세요.</h3>
-                <div id = "svgcontainer">
-                    <iframe src="svg.html" frameborder="0" height="1000px" width="100%" style="overflow: hidden"></iframe>
+                <div id="svgcontainer">
+                    <iframe src="svg.html" frameborder="0" height="1000px" width="100%"
+                        style="overflow: hidden"></iframe>
                 </div>
 
             </div>
             <div id="recipe" class="inner">
-                <a name="recipe" ></a>
+                <a name="recipe"></a>
                 <h1>소주레시피</h1>
 
                 <table border="1" width="1070px" height="900px" align="center">
                     <tr>
-                        <td ><img src="img/소주레시피/소원주.png" width="260px"height="260px"></td>
+                        <td><img src="img/소주레시피/소원주.png" width="260px" height="260px"></td>
                         <td rowspan="2"><img src="img/소주레시피/링겔주.png" width="375px" height="562.5px"></td>
-                        <td width="260px"height="260px"></td>
-                        <td width="260px"height="260px"></td>
+                        <td width="260px" height="260px"></td>
+                        <td width="260px" height="260px"></td>
                     </tr>
                     <tr>
-                        <td width="260px"height="260px"></td>
-                        <td colspan="2" width="532px"height="260px"></td>
+                        <td width="260px" height="260px"></td>
+                        <td colspan="2" width="532px" height="260px"></td>
                     </tr>
                     <tr>
-                        <td width="260px"height="260px"></td>
+                        <td width="260px" height="260px"></td>
                         <td colspan="2" width="520px" height="260px"></td>
-                        <td ><img src="img/소주레시피/스파클링봉봉주.png" width="260px"height="260px"></td>
+                        <td><img src="img/소주레시피/스파클링봉봉주.png" width="260px" height="260px"></td>
                     </tr>
                 </table>
 
@@ -525,8 +528,17 @@
             </form>
         </div>
     </div>
-    <script src="./script.js"></script>
+ 
+
+    <div id="alert">
+        <div id="alertpopup">
+            <img src="./img/checked.png" alt="" width="50px">
+            <h3>이제 부터 홈페이지의 모든 자료를 열람하실 수 있습니다.</h3>
+            <a onclick="pop()" class="close">Close</a>
+        </div>
+
     </div>
+    <script src="./script.js"></script>
 
 </body>
 
