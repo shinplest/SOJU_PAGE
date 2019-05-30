@@ -139,101 +139,19 @@ li {
     height: 90%;
 }
 
-#distilled ul {
+#distilled ul, #diluted ul {
     width: calc(100% * 8);
     display: flex;
-    animation: slide 24s infinite;
+    /*animation: slide 24s infinite;*/
 }
 
 /* slide를 24초동안 진행하며 무한반복 함 */
-#distilled li {
+#distilled li, #diluted li {
     width: calc(100% / 8);
     height: 90%;
 }
 
-#diluted ul {
-    width: calc(100% * 8);
-    display: flex;
-    animation: slide 24s infinite;
-}
-
 /* slide를 24초동안 진행하며 무한반복 함 */
-#diluted li {
-    width: calc(100% / 8);
-    height: 90%;
-}
-
-@keyframes slide {
-    0% {
-        margin-left: 0;
-    }
-
-    /* 0 ~ 6  : 정지 */
-    6% {
-        margin-left: 0;
-    }
-
-    /* 10 ~ 12.5 : 변이 */
-    12.5% {
-        margin-left: -100%;
-    }
-
-    19% {
-        margin-left: -100%;
-    }
-
-    25% {
-        margin-left: -200%;
-    }
-
-    31% {
-        margin-left: -200%;
-    }
-
-    37.5% {
-        margin-left: -300%;
-    }
-
-    44% {
-        margin-left: -300%;
-    }
-
-    50% {
-        margin-left: -400%;
-    }
-
-    56% {
-        margin-left: -400%;
-    }
-
-    62.5% {
-        margin-left: -500%;
-    }
-
-    69% {
-        margin-left: -500%;
-    }
-
-    75% {
-        margin-left: -600%;
-    }
-
-    81% {
-        margin-left: -600%;
-    }
-
-    87.5% {
-        margin-left: -700%
-    }
-
-    93% {
-        margin-left: -700%;
-    }
-
-    100% {
-        margin-left: 0;
-    }
-}
 
 #distilled li:nth-child(1) {
     background-image: url('./img/증류식소주/일품진로.jpeg');
@@ -394,7 +312,7 @@ li {
 
 #diluted ul {
     height: 100%;
-    transition: 1s;
+    /*transition: 1s;*/
 }
 
 #diluted ul:after {

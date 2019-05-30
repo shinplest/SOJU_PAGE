@@ -1,3 +1,148 @@
+const all = ele => document.querySelectorAll(ele)
+const one = ele => document.querySelector(ele)
+const two = ele => document.querySelector(ele)
+const slide1 = _ => {
+  const wrap = one('#distilled') // .slide 선택
+  const target = wrap.children[0] // .slide ul 선택
+  const len = target.children.length // .slide li 갯수
+  const chRadio = document.getElementsByName("pos");
+  const radidlen = chRadio.length;
+  const checkedRadio = chRadio.checked;
+  var i=0, count=0, k=0, alloc;
+  let pos;
+
+  chRadio[0].onclick = function Radio(){
+    pos = 0;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[1].onclick = function Radio(){
+    pos = 1;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[2].onclick = function Radio(){
+    pos = 2;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[3].onclick = function Radio(){
+    pos = 3;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[4].onclick = function Radio(){
+    pos = 4;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[5].onclick = function Radio(){
+    pos = 5;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[6].onclick = function Radio(){
+    pos = 6;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[7].onclick = function Radio(){
+    pos = 7;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+
+  if(chRadio[0].checked == true) checkingRadio(0);
+  if(chRadio[1].checked == true) checkingRadio(1);
+  if(chRadio[2].checked == true) checkingRadio(2);
+  if(chRadio[3].checked == true) checkingRadio(3);
+  if(chRadio[4].checked == true) checkingRadio(4);
+  if(chRadio[5].checked == true) checkingRadio(5);
+  if(chRadio[6].checked == true) checkingRadio(6);
+  if(chRadio[7].checked == true) checkingRadio(7);
+  
+  function checkingRadio(i){
+        pos = i;
+        alloc = setInterval(() => {
+            target.style.marginLeft = `${-pos * 100}%`
+            chRadio[pos].checked = true;
+            pos = (pos + 1) % len // 장면 선택
+        }, 2000)
+  }
+  // .slide ul의 너비 조정
+  target.style.cssText = `width:calc(100% * ${len});display:flex;transition:1s`
+  // .slide li의 너비 조정
+  Array.from(target.children)
+  .forEach(ele => ele.style.cssText = `width:calc(100% / ${len});`)
+  // 화면 전환 실행
+  
+}
+window.onload = function () {
+  slide1();
+  slide2();
+}
+
+const slide2 = _ => {
+  const wrap = two('#diluted') // .slide 선택
+  const target = wrap.children[0] // .slide ul 선택
+  const len = target.children.length // .slide li 갯수
+  const chRadio = document.getElementsByName("POS");
+  const radidlen = chRadio.length;
+  const checkedRadio = chRadio.checked;
+  var i=0, count=0, k=0, alloc;
+  let pos;
+
+  chRadio[0].onclick = function Radio(){
+    pos = 0;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[1].onclick = function Radio(){
+    pos = 1;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[2].onclick = function Radio(){
+    pos = 2;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[3].onclick = function Radio(){
+    pos = 3;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[4].onclick = function Radio(){
+    pos = 4;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[5].onclick = function Radio(){
+    pos = 5;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[6].onclick = function Radio(){
+    pos = 6;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+  chRadio[7].onclick = function Radio(){
+    pos = 7;
+    target.style.marginLeft = `${-pos * 100}%`
+  }
+
+  if(chRadio[0].checked == true) checkingRadio(0);
+  if(chRadio[1].checked == true) checkingRadio(1);
+  if(chRadio[2].checked == true) checkingRadio(2);
+  if(chRadio[3].checked == true) checkingRadio(3);
+  if(chRadio[4].checked == true) checkingRadio(4);
+  if(chRadio[5].checked == true) checkingRadio(5);
+  if(chRadio[6].checked == true) checkingRadio(6);
+  if(chRadio[7].checked == true) checkingRadio(7);
+  
+  function checkingRadio(i){
+        pos = i;
+        alloc = setInterval(() => {
+            target.style.marginLeft = `${-pos * 100}%`
+            chRadio[pos].checked = true;
+            pos = (pos + 1) % len // 장면 선택
+        }, 2000)
+  }
+  // .slide ul의 너비 조정
+  target.style.cssText = `width:calc(100% * ${len});display:flex;transition:1s`
+  // .slide li의 너비 조정
+  Array.from(target.children)
+  .forEach(ele => ele.style.cssText = `width:calc(100% / ${len});`)
+  // 화면 전환 실행
+  
+}
+
 function on_hite() {
   var M, m, i;
   m = document.getElementById("bigsoju");
