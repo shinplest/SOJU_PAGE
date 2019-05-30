@@ -213,6 +213,8 @@ function alertfunction() {
       document.getElementById("inside").innerHTML = "미성년자는 페이지 열람이 불가합니다."
       pop();
     } else if (1900 < year && year <= 2000) {
+      document.getElementById("checkimg").src = "./img/checked.png"
+      document.getElementById("inside").innerHTML = "이제 부터 홈페이지의<br>모든 자료를 열람하실 수 있습니다."
       pop();
       document.querySelector(".popup").style.display = 'none';
       document.querySelector("html").style.overflow = 'auto';
