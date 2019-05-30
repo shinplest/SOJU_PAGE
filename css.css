@@ -31,9 +31,9 @@ body::-webkit-scrollbar {
 header {
     position: sticky;
     top: 0;
-    background: #55d6aa;
+    background: #27ae60;
     z-index: 30;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 header::after {
