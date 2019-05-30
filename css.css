@@ -33,7 +33,7 @@ header {
     top: 0;
     background: #55d6aa;
     z-index: 30;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 header::after {
@@ -49,6 +49,8 @@ header::after {
 
 nav {
     float: right;
+    font-family: 'NanumSquareRound',sans-serif;
+    font-weight: 600;
 }
 
 nav ul {
@@ -98,11 +100,11 @@ nav a:hover::before {
 /*네비바 관련 설정 끝*/
 
 
-#history {}
 
 .inner {
     margin-left: 5%;
     margin-right: 6.5%;
+    margin-top: 30px;
 }
 
 /*수동 슬라이드 시작*/
@@ -595,7 +597,7 @@ td img {
     background-color: rgba(47, 51, 57, 0.137);
 
     color: white;
-    width: 6.2%;
+    width: 6%;
     z-index: 31;
     overflow: scroll;
 }
@@ -671,7 +673,7 @@ td img {
 }
 
 .box {
-    height: 14%;
+    height: 13%;
     width: 100%;
     display: block;
     text-align: center;
@@ -817,12 +819,14 @@ input[type="text"]:focus {
 }
 
 #warning {
-    font-size: 22px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
     color: white;
 }
 
 #ruready {
-    margin-top: 40px;
+    width: 550px;
+    margin-top: 50px;
     margin-bottom: 67px;
 }
 
@@ -877,4 +881,12 @@ label {
     background: #3498db;
     display: inline-block;
     border-radius: 4px;
+}
+
+/*소주의 역사 content*/
+#content{
+    font-family: 'NanumBarunGothic', sans-serif;
+}
+#history{
+  
 }
