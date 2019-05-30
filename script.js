@@ -209,6 +209,7 @@ function alertfunction() {
     if (year == "") {
       alert("출생년도를 입력하세요.");
     } else if (year > 2000) {
+      document.getElementById("checkimg").src = "./img/multiply.png"
       document.getElementById("inside").innerHTML = "미성년자는 페이지 열람이 불가합니다."
       pop();
     } else if (1900 < year && year <= 2000) {
@@ -216,6 +217,7 @@ function alertfunction() {
       document.querySelector(".popup").style.display = 'none';
       document.querySelector("html").style.overflow = 'auto';
     } else {
+      document.getElementById("checkimg").src = "./img/multiply.png"
       document.getElementById("inside").innerHTML = "잘못 입력하셨습니다. ex) 1993"
       pop();
     }
