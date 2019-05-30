@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Slide</title>
+<style>
+  *{margin:0;padding:0;}
+  ul,li{list-style:none;}
+  .slide{height:150px;overflow:hidden;}
+  .slide ul{height:100%;}
+  .slide li{height:100%;}
+  .slide li:nth-child(1){background-image: url('./img/증류식소주/일품진로.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;}
+  .slide li:nth-child(2){background-image: url('./img/희석식소주/처음처럼.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;}
+  .slide li:nth-child(3){background-image: url('./img/희석식소주/이제우린.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;}
+  .slide li:nth-child(4){background-image: url('./img/희석식소주/맛있는\ 참.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;}
+   input {display: none;}
+   label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #666;
+    background: #fff;
+    transition: 0.3s;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    .pos {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    }
+    #pos1:checked~.pos>label:nth-child(1) { background: #666;}
+    #pos1:checked~.pos>label:nth-child(2) { background: #666;}
+    #pos1:checked~.pos>label:nth-child(3) { background: #666;}
+    #pos1:checked~.pos>label:nth-child(4) { background: #666;}
+        
+
+</style>
+<script>
+const all = ele => document.querySelectorAll(ele)
+const one = ele => document.querySelector(ele)
+const slide = _ => {
+  const wrap = one('.slide') // .slide 선택
+  const target = wrap.children[0] // .slide ul 선택
+  const len = target.children.length // .slide li 갯수
+ var chRadio = document.getElementsByName('pos');
+ var i=0;
+ while(1){
+     if(chRadio[i].checked == true){
+        let pos = i;
+        setInterval(() => {
+            pos = (pos + 1) % len // 장면 선택
+            target.style.marginLeft = `${-pos * 100}%`
+        }, 1500)
+     }
+     i++;
+ }
+
+  // .slide ul의 너비 조정
+  target.style.cssText = `width:calc(100% * ${len});display:flex;transition:1s`
+  // .slide li의 너비 조정
+  Array.from(target.children)
+  .forEach(ele => ele.style.cssText = `width:calc(100% / ${len});`)
+  // 화면 전환 실행
+  
+}
+window.onload = function () {
+  slide()
+}
+</script>
+</head>
+<body>
+        <input type="radio" name="pos" id="pos1" checked>
+        <input type="radio" name="pos" id="pos2">
+        <input type="radio" name="pos" id="pos3">
+        <input type="radio" name="pos" id="pos4">
+<div class="slide">  
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<p class="pos">
+        <label for="pos1"></label>
+        <label for="pos2"></label>
+        <label for="pos3"></label>
+        <label for="pos4"></label>
+    </p>
+</body>
+</html>
