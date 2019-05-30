@@ -209,13 +209,15 @@ function alertfunction() {
     if (year == "") {
       alert("출생년도를 입력하세요.");
     } else if (year > 2000) {
-      alert("미성년자는 열람이 불가능합니다.");
+      document.getElementById("inside").innerHTML = "미성년자는 페이지 열람이 불가합니다."
+      pop();
     } else if (1900 < year && year <= 2000) {
       pop();
       document.querySelector(".popup").style.display = 'none';
       document.querySelector("html").style.overflow = 'auto';
     } else {
-      alert("잘못 입력하셨습니다. ex) 1993");
+      document.getElementById("inside").innerHTML = "잘못 입력하셨습니다. ex) 1993"
+      pop();
     }
   }
 }
