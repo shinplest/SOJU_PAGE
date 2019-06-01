@@ -151,7 +151,7 @@ function on_hite() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = 'rgba(160, 212, 104, 0.705)';
+  i.style.backgroundColor = 'rgba(60, 61, 59, 1.505)';
 }
 
 function out_hite() {

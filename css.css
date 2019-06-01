@@ -512,24 +512,30 @@ td img {
     right: 0;
     height: 100%;
     text-align: center;
-    background-color: rgba(47, 51, 57, 0.137);
+    background-color: rgba(60, 61, 59,0.1);
 
     color: white;
     width: 6%;
     z-index: 31;
     overflow: scroll;
+    margin-top: 55px;
 }
 
 #bigsoju::-webkit-scrollbar {
     display: none;
 }
+#rightnav{
+   
+}
 
 #moving {
-    height: 60px;
+    height: 55px;
     width: 100%;
     display: block;
     text-align: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 0px solid #000000;
+    color:white;
+    text-align: center;
 }
 
 #detail_hite_soju,
@@ -553,7 +559,7 @@ td img {
     color: white;
     z-index: 30;
     overflow: scroll;
-
+    margin-top: 55px;
     -webkit-transition: width 2s, height 2s, background-color 1.5s, -webkit-transform 2s;
     transition: width 2s, height 2s, background-color 1s, transform 2s;
 }
@@ -633,7 +639,7 @@ td img {
 
 #hite:hover,
 #detail_hite_soju:hover {
-    background-color: rgba(160, 212, 104, 0.705);
+    background-color: rgba(60, 61, 59, 1.505);
 }
 
 #LOTTE:hover,
@@ -647,7 +653,7 @@ td img {
 }
 
 #kumbokju:hover,
-##detail_kumbokju_soju:hover {
+#detail_kumbokju_soju:hover {
     background-color: salmon;
 }
 
