@@ -371,25 +371,4 @@ function alertfunction() {
   }
 }
 
-var modal = document.querySelector(".modal"); 
-var trigger = document.querySelector(".trigger");
-var cancelButton2 = document.querySelector("#cancel2");
-
-        //console.log(modal);
-
-        function toggleModal() { 
-            modal.classList.toggle("show-modal"); 
-         }
-
-        function windowOnClick(event) { 
-             if (event.target === modal) { 
-                 toggleModal(); 
-             } 
-         }
-
-        trigger.addEventListener("click", toggleModal);
-        cancel2.addEventListener("click", toggleModal); 
-        window.addEventListener("click", windowOnClick); 
-        modal.addEventListener("click", toggleModal); 
-
 
