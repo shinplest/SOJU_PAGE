@@ -513,12 +513,10 @@ td img {
     height: 100%;
     text-align: center;
     background-color: rgba(60, 61, 59,0.1);
-
     color: white;
     width: 6%;
     z-index: 31;
     overflow: scroll;
-    margin-top: 55px;
 }
 
 #bigsoju::-webkit-scrollbar {
@@ -559,7 +557,6 @@ td img {
     color: white;
     z-index: 30;
     overflow: scroll;
-    margin-top: 55px;
     -webkit-transition: width 2s, height 2s, background-color 1.5s, -webkit-transform 2s;
     transition: width 2s, height 2s, background-color 1s, transform 2s;
 }
