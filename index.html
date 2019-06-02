@@ -43,14 +43,13 @@
     <section id="main">
         <header>
             <div class="container">
-                <img src="./img/logo.png" alt="logo" class="logo" height="47px">
+                <img src="./img/logo.png" alt="logo" class="logo" height="47px" onclick="window.location.href = '#top'">
                 <nav>
                     <ul>
                         <li><a href="#history">소주의 역사</a></li>
                         <li><a href="#kind">소주의 종류</a></li>
                         <li><a href="#region">지역별 소주</a></li>
                         <li><a href="#recipe">소주 레시피</a></li>
-                        <li><a href="#recommend">소주 추천</a></li>
                     </ul>
                 </nav>
             </div>
@@ -67,16 +66,16 @@
             <div id="history" class="inner">
                 <br><br><br><br>
                 <a name="history"></a>
-                <h1>소주의 역사</h1>
+                <h1 class="content_title">소주의 역사</h1>
                 <ol>
                     <li>
-                        <span contenteditable="false" class="h_num">01</span>
+                        <span class="h_num">01</span>
                         소주와 같은 증류주는 10세기경 아라비아의 연금술사에 의해 전해진 증류방법을 통해 알코올이 제조되었다는 기록이 남아 있으며, 우리나라에는 고려 후기에 몽골로부터 들어온
                         것으로 알려지고 있습니다.
                         <img src="./img/소주의 역사.PNG" class="h_img" alt="">
                     </li>
                     <li>
-                        <span contenteditable="false" class="h_num">02</span>
+                        <span class="h_num">02</span>
                         물론 이때의 소주는 증류식 소주였고, 현재의 희석식 소주는 19세기에 연속식 증류기가 발명된 후인, 일제시대 때 우리나라에 주정공장이 처음 설립되면서 만들어지기
                         시작했습니다.
                         <img src="./img/소주의 역사2.PNG" class="h_img" alt="">
@@ -90,7 +89,7 @@
                 <h1 class="inner">소주의 종류</h1>
                 <div style="text-align: center" class="inner">
                     <!--<img src="./img/증류식희석식.jpg" alt="증류식 희석식 소주">-->
-                    <img src="./img/증류식희석식2.jpg" alt="증류식 희석식 소주2">
+                    <img src="./img/증류식희석식2.jpg" alt="증류식 희석식 소주2" width="70%">
                 </div>
 
                 <div class="inner">
@@ -215,7 +214,6 @@
         <input type="button" id="gotop" value="top" onclick="window.location.href = '#top'">
         <footer>
             <p id="copy">© 2016 JAEHYOUNGSOYEON CO.LTD. ALL RIGHTS RESERVED.</p>
-            <input type="button" id="gotop" value="top" onclick="window.location.href = '#top'">
         </footer>
 
 
@@ -543,7 +541,7 @@
         <div class="popup-content">
             <img src="./img/ruready.png" id="ruready" alt="" width="90%">
             <form>
-                <p id="warning">2000년 이전 출생부터 페이지 열람이 가능합니다.<br>출생년도를 입력 해 주세요.</p><br><br>
+                <p id="warning">20세 이상부터 페이지 열람이 가능합니다.<br><em>출생년도</em>를 입력 해 주세요.</p><br><br>
                 <input type="checkbox" id="cuki"><label for="cuki">더 나은 서비스 제공을 위한 쿠키 정보 제공에 동의해주세요.<br></label>
                 <input id="myText" type="text" placeholder="출생년도">
                 <a class="submit" onclick="alertfunction()">입장하기</a>

@@ -40,5 +40,81 @@
 }
 
 #svgdiv{
-    margin-left: 150px;
+    margin-left: 100px;
+}
+
+#seoul{
+    display: none;
+    width: 300px;
+}
+#gangwon{
+    display: none;
+    width: 300px;
+}
+#choongnam{
+    display: none;
+    width: 300px;
+}
+#choongbook{
+    display: none;
+    width: 300px;
+}
+#kyoungnam{
+    display: none;
+    width: 300px;
+}
+#kyoungbook{
+    display: none;
+    width: 300px;
+}
+#jeounnam{
+    display: none;
+    width: 300px;
+}
+#jeounbook{
+    display: none;
+    width: 300px;
+}
+#busan{
+    display: none;
+    width: 300px;
+}
+#jeju{
+    display: none;
+    width: 300px;
+}
+
+#svgdiv{
+    margin-left: 100px;
+}
+
+#seoul_text{
+    display: none;
+}
+#gangwon_text{
+    display: none;
+}
+#choongnam_text{
+    display: none;
+}
+#choongbook_text{
+    display: none;
+}
+#kyoungnam_text{
+    display: none;
+}
+#kyoungbook_text{
+    display: none;
+}
+#jeounnam_text{
+    display: none;
+}
+#jeounbook_text{
+    display: none;
+}
+#busan_text{
+    display: none;
+}
+#jeju_text{
+    display: none;
 }

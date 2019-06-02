@@ -1,16 +1,33 @@
 /*소주의 역사 content*/
 #content{
     font-family: 'NanumBarunGothic', sans-serif;
+    width: 85%;
+    margin-left: 6%;
 }
+
 #history{
   
 }
 
+.content_title{
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
 .h_num{
-    background-color: black;
-    color: white;
-    height: 30px;
+    display: inline-block;
+    float: left;
+    top: 0;
+    left: 0;
     width: 30px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 7px;
 }
 
 .h_img{
