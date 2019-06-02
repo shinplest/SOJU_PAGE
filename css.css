@@ -51,6 +51,7 @@ nav {
     float: right;
     font-family: 'NanumSquareRound',sans-serif;
     font-weight: 600;
+    margin-right: 100px;
 }
 
 nav ul {
