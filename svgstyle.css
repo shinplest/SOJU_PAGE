@@ -1,120 +1,135 @@
-#seoul{
-    display: none;
-    width: 300px;
-}
-#gangwon{
-    display: none;
-    width: 300px;
-}
-#choongnam{
-    display: none;
-    width: 300px;
-}
-#choongbook{
-    display: none;
-    width: 300px;
-}
-#kyoungnam{
-    display: none;
-    width: 300px;
-}
-#kyoungbook{
-    display: none;
-    width: 300px;
-}
-#jeounnam{
-    display: none;
-    width: 300px;
-}
-#jeounbook{
-    display: none;
-    width: 300px;
-}
-#busan{
-    display: none;
-    width: 300px;
-}
-#jeju{
-    display: none;
-    width: 300px;
+svg table tr td img{
+    width: 250px;
 }
 
-#svgdiv{
+svg table tr td h1{
+    float: center;
+}
+
+#seoul {
+    display: none;
+}
+
+#gangwon {
+    display: none;
+}
+
+#choongnam {
+    display: none;
+}
+
+#choongbook {
+    display: none;
+}
+
+#kyoungnam {
+    display: none;
+}
+
+#kyoungbook {
+    display: none;
+}
+
+#jeounnam {
+    display: none;
+}
+
+#jeounbook {
+    display: none;
+}
+
+#busan {
+    display: none;
+}
+
+#jeju {
+    display: none;
+}
+
+#svgdiv {
     margin-left: 100px;
 }
 
-#seoul{
+#seoul {
     display: none;
-    width: 300px;
-}
-#gangwon{
-    display: none;
-    width: 300px;
-}
-#choongnam{
-    display: none;
-    width: 300px;
-}
-#choongbook{
-    display: none;
-    width: 300px;
-}
-#kyoungnam{
-    display: none;
-    width: 300px;
-}
-#kyoungbook{
-    display: none;
-    width: 300px;
-}
-#jeounnam{
-    display: none;
-    width: 300px;
-}
-#jeounbook{
-    display: none;
-    width: 300px;
-}
-#busan{
-    display: none;
-    width: 300px;
-}
-#jeju{
-    display: none;
-    width: 300px;
 }
 
-#svgdiv{
+#gangwon {
+    display: none;
+}
+
+#choongnam {
+    display: none;
+}
+
+#choongbook {
+    display: none;
+}
+
+#kyoungnam {
+    display: none;
+}
+
+#kyoungbook {
+    display: none;
+}
+
+#jeounnam {
+    display: none;
+}
+
+#jeounbook {
+    display: none;
+}
+
+#busan {
+    display: none;
+}
+
+#jeju {
+    display: none;
+}
+
+#svgdiv {
     margin-left: 100px;
 }
 
-#seoul_text{
+#seoul_text {
     display: none;
 }
-#gangwon_text{
+
+#gangwon_text {
     display: none;
 }
-#choongnam_text{
+
+#choongnam_text {
     display: none;
 }
-#choongbook_text{
+
+#choongbook_text {
     display: none;
 }
-#kyoungnam_text{
+
+#kyoungnam_text {
     display: none;
 }
-#kyoungbook_text{
+
+#kyoungbook_text {
     display: none;
 }
-#jeounnam_text{
+
+#jeounnam_text {
     display: none;
 }
-#jeounbook_text{
+
+#jeounbook_text {
     display: none;
 }
-#busan_text{
+
+#busan_text {
     display: none;
 }
-#jeju_text{
+
+#jeju_text {
     display: none;
 }
