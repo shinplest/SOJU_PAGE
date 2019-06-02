@@ -1,9 +1,13 @@
-svg table tr td img{
-    width: 250px;
+body div svg table tr td img {
+    width: 10px;
 }
 
-svg table tr td h1{
-    float: center;
+svg table tr td p {
+    text-align: center;
+}
+
+#svgdiv {
+    margin-left: 60px;
 }
 
 #seoul {
@@ -46,54 +50,7 @@ svg table tr td h1{
     display: none;
 }
 
-#svgdiv {
-    margin-left: 100px;
-}
-
-#seoul {
-    display: none;
-}
-
-#gangwon {
-    display: none;
-}
-
-#choongnam {
-    display: none;
-}
-
-#choongbook {
-    display: none;
-}
-
-#kyoungnam {
-    display: none;
-}
-
-#kyoungbook {
-    display: none;
-}
-
-#jeounnam {
-    display: none;
-}
-
-#jeounbook {
-    display: none;
-}
-
-#busan {
-    display: none;
-}
-
-#jeju {
-    display: none;
-}
-
-#svgdiv {
-    margin-left: 100px;
-}
-
+/*text*/
 #seoul_text {
     display: none;
 }
