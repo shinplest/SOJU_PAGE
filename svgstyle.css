@@ -1,9 +1,11 @@
-body div svg table tr td img {
-    width: 10px;
+.img_region{
+    width: 200px;
+    display: inline;
 }
 
-svg table tr td p {
-    text-align: center;
+td p{
+    font-size: 20px;
+    display: inline; 
 }
 
 #svgdiv {
