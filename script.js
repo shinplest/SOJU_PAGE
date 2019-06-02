@@ -8,66 +8,69 @@ const slide1 = _ => {
   const chRadio = document.getElementsByName("pos");
   const radidlen = chRadio.length;
   const checkedRadio = chRadio.checked;
-  var i=0, count=0, k=0, alloc;
+  var i = 0,
+    count = 0,
+    k = 0,
+    alloc;
   let pos;
 
-  chRadio[0].onclick = function Radio(){
+  chRadio[0].onclick = function Radio() {
     pos = 0;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[1].onclick = function Radio(){
+  chRadio[1].onclick = function Radio() {
     pos = 1;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[2].onclick = function Radio(){
+  chRadio[2].onclick = function Radio() {
     pos = 2;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[3].onclick = function Radio(){
+  chRadio[3].onclick = function Radio() {
     pos = 3;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[4].onclick = function Radio(){
+  chRadio[4].onclick = function Radio() {
     pos = 4;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[5].onclick = function Radio(){
+  chRadio[5].onclick = function Radio() {
     pos = 5;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[6].onclick = function Radio(){
+  chRadio[6].onclick = function Radio() {
     pos = 6;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[7].onclick = function Radio(){
+  chRadio[7].onclick = function Radio() {
     pos = 7;
     target.style.marginLeft = `${-pos * 100}%`
   }
 
-  if(chRadio[0].checked == true) checkingRadio(0);
-  if(chRadio[1].checked == true) checkingRadio(1);
-  if(chRadio[2].checked == true) checkingRadio(2);
-  if(chRadio[3].checked == true) checkingRadio(3);
-  if(chRadio[4].checked == true) checkingRadio(4);
-  if(chRadio[5].checked == true) checkingRadio(5);
-  if(chRadio[6].checked == true) checkingRadio(6);
-  if(chRadio[7].checked == true) checkingRadio(7);
-  
-  function checkingRadio(i){
-        pos = i;
-        alloc = setInterval(() => {
-            target.style.marginLeft = `${-pos * 100}%`
-            chRadio[pos].checked = true;
-            pos = (pos + 1) % len // 장면 선택
-        }, 2000)
+  if (chRadio[0].checked == true) checkingRadio(0);
+  if (chRadio[1].checked == true) checkingRadio(1);
+  if (chRadio[2].checked == true) checkingRadio(2);
+  if (chRadio[3].checked == true) checkingRadio(3);
+  if (chRadio[4].checked == true) checkingRadio(4);
+  if (chRadio[5].checked == true) checkingRadio(5);
+  if (chRadio[6].checked == true) checkingRadio(6);
+  if (chRadio[7].checked == true) checkingRadio(7);
+
+  function checkingRadio(i) {
+    pos = i;
+    alloc = setInterval(() => {
+      target.style.marginLeft = `${-pos * 100}%`
+      chRadio[pos].checked = true;
+      pos = (pos + 1) % len // 장면 선택
+    }, 2000)
   }
   // .slide ul의 너비 조정
   target.style.cssText = `width:calc(100% * ${len});display:flex;transition:1s`
   // .slide li의 너비 조정
   Array.from(target.children)
-  .forEach(ele => ele.style.cssText = `width:calc(100% / ${len});`)
+    .forEach(ele => ele.style.cssText = `width:calc(100% / ${len});`)
   // 화면 전환 실행
-  
+
 }
 window.onload = function () {
   slide1();
@@ -81,66 +84,69 @@ const slide2 = _ => {
   const chRadio = document.getElementsByName("POS");
   const radidlen = chRadio.length;
   const checkedRadio = chRadio.checked;
-  var i=0, count=0, k=0, alloc;
+  var i = 0,
+    count = 0,
+    k = 0,
+    alloc;
   let pos;
 
-  chRadio[0].onclick = function Radio(){
+  chRadio[0].onclick = function Radio() {
     pos = 0;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[1].onclick = function Radio(){
+  chRadio[1].onclick = function Radio() {
     pos = 1;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[2].onclick = function Radio(){
+  chRadio[2].onclick = function Radio() {
     pos = 2;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[3].onclick = function Radio(){
+  chRadio[3].onclick = function Radio() {
     pos = 3;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[4].onclick = function Radio(){
+  chRadio[4].onclick = function Radio() {
     pos = 4;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[5].onclick = function Radio(){
+  chRadio[5].onclick = function Radio() {
     pos = 5;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[6].onclick = function Radio(){
+  chRadio[6].onclick = function Radio() {
     pos = 6;
     target.style.marginLeft = `${-pos * 100}%`
   }
-  chRadio[7].onclick = function Radio(){
+  chRadio[7].onclick = function Radio() {
     pos = 7;
     target.style.marginLeft = `${-pos * 100}%`
   }
 
-  if(chRadio[0].checked == true) checkingRadio(0);
-  if(chRadio[1].checked == true) checkingRadio(1);
-  if(chRadio[2].checked == true) checkingRadio(2);
-  if(chRadio[3].checked == true) checkingRadio(3);
-  if(chRadio[4].checked == true) checkingRadio(4);
-  if(chRadio[5].checked == true) checkingRadio(5);
-  if(chRadio[6].checked == true) checkingRadio(6);
-  if(chRadio[7].checked == true) checkingRadio(7);
-  
-  function checkingRadio(i){
-        pos = i;
-        alloc = setInterval(() => {
-            target.style.marginLeft = `${-pos * 100}%`
-            chRadio[pos].checked = true;
-            pos = (pos + 1) % len // 장면 선택
-        }, 2000)
+  if (chRadio[0].checked == true) checkingRadio(0);
+  if (chRadio[1].checked == true) checkingRadio(1);
+  if (chRadio[2].checked == true) checkingRadio(2);
+  if (chRadio[3].checked == true) checkingRadio(3);
+  if (chRadio[4].checked == true) checkingRadio(4);
+  if (chRadio[5].checked == true) checkingRadio(5);
+  if (chRadio[6].checked == true) checkingRadio(6);
+  if (chRadio[7].checked == true) checkingRadio(7);
+
+  function checkingRadio(i) {
+    pos = i;
+    alloc = setInterval(() => {
+      target.style.marginLeft = `${-pos * 100}%`
+      chRadio[pos].checked = true;
+      pos = (pos + 1) % len // 장면 선택
+    }, 2000)
   }
   // .slide ul의 너비 조정
   target.style.cssText = `width:calc(100% * ${len});display:flex;transition:1s`
   // .slide li의 너비 조정
   Array.from(target.children)
-  .forEach(ele => ele.style.cssText = `width:calc(100% / ${len});`)
+    .forEach(ele => ele.style.cssText = `width:calc(100% / ${len});`)
   // 화면 전환 실행
-  
+
 }
 
 function on_hite() {
@@ -336,6 +342,7 @@ window.addEventListener('scroll', function() {
 
 */
 var c = 0;
+
 function pop() {
   if (c == 0) {
     document.getElementById("alertpopup").style.display = "block";
@@ -344,6 +351,11 @@ function pop() {
     document.getElementById("alertpopup").style.display = "none";
     c = 0;
   }
+}
+
+function allowview() {
+  document.querySelector(".popup").style.display = 'none';
+  document.querySelector("html").style.overflow = 'auto';
 }
 
 function alertfunction() {
@@ -361,8 +373,6 @@ function alertfunction() {
       document.getElementById("checkimg").src = "./img/checked.png"
       document.getElementById("inside").innerHTML = "이제 부터 홈페이지의<br>모든 자료를 열람하실 수 있습니다."
       pop();
-      document.querySelector(".popup").style.display = 'none';
-      document.querySelector("html").style.overflow = 'auto';
     } else {
       document.getElementById("checkimg").src = "./img/multiply.png"
       document.getElementById("inside").innerHTML = "잘못 입력하셨습니다. ex) 1993"
