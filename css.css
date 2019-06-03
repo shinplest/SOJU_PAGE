@@ -685,6 +685,7 @@ span img {
 
 .recipe_title{
     margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 32px;
     font-family: 'NanumSquareRound',sans-serif;
 }
