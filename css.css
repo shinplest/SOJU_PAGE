@@ -675,6 +675,7 @@ span img {
     cursor: pointer;
 }
 
+
 /*popup css*/
 .popup {
     width: 100%;
@@ -808,6 +809,30 @@ label {
     background: #3498db;
     display: inline-block;
     border-radius: 4px;
+}
+#deatil, #deatil1, #deatil2, #deatil3,#deatil4,#deatil5,#deatil6,#deatil7,#deatil8 {
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9998;
+    padding: 10px;
+    text-align: center;
+    display: none;
+
+}
+#recipe span:hover{
+    position : absolute;
+   right : 5px;
+   top : 5px;
+   padding : 0px; /* padding : 5px; */
+   display : inline-block;
+   cursor : pointer;
 }
 
 footer{
