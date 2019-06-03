@@ -385,10 +385,12 @@ function popupdetail(){
   if (Cnt == 0) {
     document.getElementById("deatil").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop").style.display = 'none'
     Cnt = 0;
   }
 }
