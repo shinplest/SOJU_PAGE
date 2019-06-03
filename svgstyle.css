@@ -1,15 +1,32 @@
 .img_region{
-    width: 200px;
+    width: 250px;
     display: inline;
 }
 
 td p{
     font-size: 20px;
+    font-family: 'NanumSquareRound',sans-serif;
     text-align: center;
+    font-weight: bold;
+    font-style: normal;
+}
+
+td p em{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.degree{
+    font-size : 15px;
+    font-style: italic;
+}
+
+#region_content{
+    vertical-align: top;
 }
 
 #svgdiv {
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 #seoul {

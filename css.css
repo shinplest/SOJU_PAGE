@@ -99,13 +99,6 @@ nav a:hover::before {
 /*네비바 관련 설정 끝*/
 
 
-
-.inner {
-    margin-left: 5%;
-    margin-right: 6.5%;
-    margin-top: 100px;
-}
-
 /*수동 슬라이드 시작*/
 * {
     margin: 0;
