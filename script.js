@@ -246,7 +246,7 @@ function on_Bohae() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0.9)';
 }
 
 function out_Bohae() {
@@ -268,7 +268,7 @@ function on_DAESUN() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0.9)';
 }
 
 function out_DAESUN() {
@@ -290,7 +290,7 @@ function on_THEMACKISS() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0.9)';
 }
 
 function out_THEMACKISS() {
@@ -312,7 +312,7 @@ function on_HALLASAN() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0.9)';
 }
 
 function out_HALLASAN() {
@@ -511,7 +511,4 @@ function popupdetail8() {
     document.querySelector(".poppop8").style.display = 'none';
     Cnt = 0;
   }
-}
-function calla1(){
-document.getElementById("a1").style.display="inline";
 }
