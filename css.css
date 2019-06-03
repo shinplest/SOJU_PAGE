@@ -838,19 +838,17 @@ footer{
     text-align: center;
     background: #292929;
     color: #777777;
-    margin: 0;
-    text-decoration: none solid rgb(84,84,84);
 }
 address{
     display: inline-block;
     vertical-align: top;
     font-style: normal;
-}
-.address_tel{
     margin-bottom: 5px;
 }
+   
 .tel{
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 
