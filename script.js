@@ -396,7 +396,7 @@ function popupdetail() {
   } else {
     document.getElementById("deatil").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
-    document.querySelector(".poppop").style.display = 'none'
+    document.querySelector(".poppop").style.display = 'none';
     Cnt = 0;
   }
 }
@@ -405,10 +405,12 @@ function popupdetail1() {
   if (Cnt == 0) {
     document.getElementById("deatil1").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop1").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil1").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop1").style.display = 'none';
     Cnt = 0;
   }
 }
@@ -417,10 +419,12 @@ function popupdetail2() {
   if (Cnt == 0) {
     document.getElementById("deatil2").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop2").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil2").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop2").style.display = 'none';
     Cnt = 0;
   }
 }
@@ -429,10 +433,12 @@ function popupdetail3() {
   if (Cnt == 0) {
     document.getElementById("deatil3").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop3").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil3").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop3").style.display = 'none';
     Cnt = 0;
   }
 }
@@ -441,10 +447,12 @@ function popupdetail4() {
   if (Cnt == 0) {
     document.getElementById("deatil4").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop4").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil4").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop4").style.display = 'none';
     Cnt = 0;
   }
 }
@@ -453,10 +461,12 @@ function popupdetail5() {
   if (Cnt == 0) {
     document.getElementById("deatil5").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop5").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil5").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop5").style.display = 'none';
     Cnt = 0;
   }
 }
@@ -465,10 +475,12 @@ function popupdetail6() {
   if (Cnt == 0) {
     document.getElementById("deatil6").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop6").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil6").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop6").style.display = 'none';
     Cnt = 0;
   }
 }
@@ -477,10 +489,12 @@ function popupdetail17() {
   if (Cnt == 0) {
     document.getElementById("deatil7").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop7").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil7").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop7").style.display = 'none';
     Cnt = 0;
   }
 }
@@ -489,10 +503,12 @@ function popupdetail8() {
   if (Cnt == 0) {
     document.getElementById("deatil8").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector(".poppop8").style.display = 'block';
     Cnt = 1;
   } else {
     document.getElementById("deatil8").style.display = "none";
     document.querySelector("html").style.overflow = 'auto';
+    document.querySelector(".poppop8").style.display = 'none';
     Cnt = 0;
   }
 }
