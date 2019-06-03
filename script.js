@@ -512,3 +512,6 @@ function popupdetail8() {
     Cnt = 0;
   }
 }
+function calla1(){
+document.getElementById("a1").style.display="inline";
+}
