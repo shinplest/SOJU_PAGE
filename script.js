@@ -353,9 +353,13 @@ function pop() {
   }
 }
 
+var allow = 0;
+
 function allowview() {
-  document.querySelector(".popup").style.display = 'none';
-  document.querySelector("html").style.overflow = 'auto';
+  if (allow == 1) {
+    document.querySelector(".popup").style.display = 'none';
+    document.querySelector("html").style.overflow = 'auto';
+  }
 }
 
 function alertfunction() {
@@ -370,6 +374,7 @@ function alertfunction() {
       document.getElementById("inside").innerHTML = "미성년자는 페이지 열람이 불가합니다."
       pop();
     } else if (1900 < year && year <= 2000) {
+      allow = 1;
       document.getElementById("checkimg").src = "./img/checked.png"
       document.getElementById("inside").innerHTML = "이제 부터 홈페이지의<br>모든 자료를 열람하실 수 있습니다."
       pop();
@@ -380,8 +385,9 @@ function alertfunction() {
     }
   }
 }
-var Cnt=0;
-function popupdetail(){
+var Cnt = 0;
+
+function popupdetail() {
   if (Cnt == 0) {
     document.getElementById("deatil").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -394,7 +400,8 @@ function popupdetail(){
     Cnt = 0;
   }
 }
-function popupdetail1(){
+
+function popupdetail1() {
   if (Cnt == 0) {
     document.getElementById("deatil1").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -405,7 +412,8 @@ function popupdetail1(){
     Cnt = 0;
   }
 }
-function popupdetail2(){
+
+function popupdetail2() {
   if (Cnt == 0) {
     document.getElementById("deatil2").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -416,7 +424,8 @@ function popupdetail2(){
     Cnt = 0;
   }
 }
-function popupdetail3(){
+
+function popupdetail3() {
   if (Cnt == 0) {
     document.getElementById("deatil3").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -427,7 +436,8 @@ function popupdetail3(){
     Cnt = 0;
   }
 }
-function popupdetail4(){
+
+function popupdetail4() {
   if (Cnt == 0) {
     document.getElementById("deatil4").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -438,7 +448,8 @@ function popupdetail4(){
     Cnt = 0;
   }
 }
-function popupdetail5(){
+
+function popupdetail5() {
   if (Cnt == 0) {
     document.getElementById("deatil5").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -449,7 +460,8 @@ function popupdetail5(){
     Cnt = 0;
   }
 }
-function popupdetail6(){
+
+function popupdetail6() {
   if (Cnt == 0) {
     document.getElementById("deatil6").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -460,7 +472,8 @@ function popupdetail6(){
     Cnt = 0;
   }
 }
-function popupdetail17(){
+
+function popupdetail17() {
   if (Cnt == 0) {
     document.getElementById("deatil7").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -471,7 +484,8 @@ function popupdetail17(){
     Cnt = 0;
   }
 }
-function popupdetail8(){
+
+function popupdetail8() {
   if (Cnt == 0) {
     document.getElementById("deatil8").style.display = "block";
     document.querySelector("html").style.overflow = 'hidden';
@@ -482,5 +496,3 @@ function popupdetail8(){
     Cnt = 0;
   }
 }
-
-
