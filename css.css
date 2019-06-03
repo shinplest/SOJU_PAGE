@@ -508,7 +508,7 @@ td img {
     right: 0;
     height: 100%;
     text-align: center;
-    background-color: rgba(60, 61, 59,0.1);
+    background-color: #3e5a5942;
     color: white;
     width: 6%;
     z-index: 31;
@@ -523,7 +523,7 @@ td img {
 }
 
 #moving {
-    height: 55px;
+    height: 57px;
     width: 100%;
     display: block;
     text-align: center;
@@ -549,7 +549,7 @@ td img {
     width: 6.5%;
     height: 100%;
     text-align: center;
-    background-color: rgba(47, 51, 57, 0.137);
+    background-color: #31313100;
     color: white;
     z-index: 30;
     overflow: scroll;
@@ -634,7 +634,7 @@ td img {
 
 #hite:hover,
 #detail_hite_soju:hover {
-    background-color: rgba(60, 61, 59, 1.505);
+    background-color: rgb(64, 73, 71);
 }
 
 #LOTTE:hover,

@@ -157,7 +157,7 @@ function on_hite() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = 'rgba(60, 61, 59, 1.505)';
+  i.style.backgroundColor = 'rgb(64, 73, 71)';
 }
 
 function out_hite() {
@@ -166,7 +166,7 @@ function out_hite() {
   M = document.getElementById("detail_hite_soju");
   i = document.getElementById("hite");
 
-  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
+  i.style.backgroundColor = '#31313100';
   m.style.right = '0px';
   M.style.display = 'none';
 
