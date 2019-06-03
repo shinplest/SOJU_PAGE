@@ -523,13 +523,14 @@ td img {
 }
 
 #moving {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    font-size: 15px;
     height: 57px;
-    width: 100%;
     display: block;
-    text-align: center;
-    border-bottom: 0px solid #000000;
-    color:white;
-    text-align: center;
+    margin: 0;
+    color: white;
 }
 
 #detail_hite_soju,
