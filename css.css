@@ -485,6 +485,7 @@ td img {
     cursor: pointer;
     text-align: center;
     margin-right: 12%;
+    
 }
 
 
@@ -603,6 +604,8 @@ td img {
 
 .show-on-scroll {
     visibility: hidden;
+    
+    
 }
 
 .show-on-scroll.shown {

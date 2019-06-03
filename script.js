@@ -325,14 +325,14 @@ function out_HALLASAN() {
   m.style.right = '0px';
   M.style.display = 'none';
 }
-/*
+
 window.addEventListener('scroll', function() {
     var el = document.querySelector('.show-on-scroll');
     
     if(window.scrollY >= 300) el.classList.add('shown');
     else el.classList.remove('shown');
   }); //300px 스크롤하면 보이게 
-
+/*
 window.addEventListener('scroll', function() {
     var el = document.querySelector('.show-on-5px');
     
