@@ -472,6 +472,7 @@ td img {
 }
 
 /*from now on about button or sth*/
+
 #gotop {
     position: sticky;
     bottom: 0;
@@ -483,12 +484,15 @@ td img {
     font-size: 16px;
     cursor: pointer;
     text-align: center;
-    margin-right: 6.5%;
+    margin-right: 12%;
 }
+
 
 #gotop:hover {
     background-color:rgba(0, 0, 0, 0);
 }
+
+
 
 #main {
     width: 100%;
