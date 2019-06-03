@@ -157,7 +157,7 @@ function on_hite() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = 'rgb(64, 73, 71)';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0.9)';
 }
 
 function out_hite() {
@@ -180,7 +180,7 @@ function on_LOTTE() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = 'rgba(253, 137, 191, 0.705)';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0.9)';
 }
 
 function out_LOTTE() {
@@ -202,7 +202,7 @@ function on_MUHAK() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = '#55d6aa';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0.9)';
 }
 
 function out_MUHAK() {
@@ -224,7 +224,7 @@ function on_kumbokju() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = '#55d6ab8e';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0.9)';
 }
 
 function out_kumbokju() {
@@ -246,7 +246,7 @@ function on_Bohae() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = '#55d6aa';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
 }
 
 function out_Bohae() {
@@ -268,7 +268,7 @@ function on_DAESUN() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = '#55d6aa';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
 }
 
 function out_DAESUN() {
@@ -290,7 +290,7 @@ function on_THEMACKISS() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = '#55d6aa';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
 }
 
 function out_THEMACKISS() {
@@ -312,7 +312,7 @@ function on_HALLASAN() {
 
   m.style.right = '6.5%';
   M.style.display = 'block';
-  i.style.backgroundColor = '#55d6aa';
+  i.style.backgroundColor = 'rgba(47, 51, 57, 0)';
 }
 
 function out_HALLASAN() {
