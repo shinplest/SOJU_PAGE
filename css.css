@@ -804,13 +804,13 @@ label {
     border-radius: 4px;
 }
 #deatil, #deatil1, #deatil2, #deatil3,#deatil4,#deatil5,#deatil6,#deatil7,#deatil8 {
-    width: 500px;
+    width: 50%;
     overflow: hidden;
     background: #f1f1f1;
     box-shadow: 0 0 20px black;
     border-radius: 10px;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 9998;
