@@ -546,16 +546,15 @@ td img {
     position: fixed;
     top: 0px;
     right: 0;
-    background-color: #2F3339;
     width: 6.5%;
     height: 100%;
     text-align: center;
-    background-color: #31313100;
     color: white;
+    background-color: #3e5a5942;
     z-index: 30;
     overflow: scroll;
     -webkit-transition: width 2s, height 2s, background-color 1.5s, -webkit-transform 2s;
-    transition: width 2s, height 2s, background-color 1s, transform 2s;
+    transition: width 2s, height 2s, background-color 0.7s, transform 1s;
 }
 
 #detail_hite_soju::-webkit-scrollbar {
@@ -630,44 +629,52 @@ td img {
 #THEMACKISS,
 #HALLASAN {
     -webkit-transition: width 2s, height 2s, background-color 0.5s, -webkit-transform 1s;
-    transition: width 2s, height 2s, background-color 0.5s, transform 2s;
+    transition: width 2s, height 2s, background-color 0.7s, transform 1s;
 }
 
 #hite:hover,
 #detail_hite_soju:hover {
-    background-color: rgb(64, 73, 71);
+    background-color: rgba(	47, 51, 57, 0.9);
 }
 
 #LOTTE:hover,
 #detail_LOTTE_soju:hover {
-    background-color: rgba(253, 137, 191, 0.705);
+    background-color: rgba(	47, 51, 57, 0.9);
 }
 
 #MUHAK:hover,
 #detail_MUHAK_soju:hover {
-    background-color: #55d6ab8e;
+    background-color: rgba(	47, 51, 57, 0.9);
 }
 
 #kumbokju:hover,
 #detail_kumbokju_soju:hover {
-    background-color: salmon;
+    background-color: rgba(	47, 51, 57, 0.9);
 }
 
 #Bohae:hover,
-#detail_Bohae_soju:hover {}
+#detail_Bohae_soju:hover {
+    background-color: rgba(	47, 51, 57, 0.9);
+}
 
 #DAESUN:hover,
-#detail_DAESUN_soju:hover {}
+#detail_DAESUN_soju:hover {
+    background-color: rgba(	47, 51, 57, 0.9);
+}
 
 #THEMACKISS:hover,
-#detail_THEMACKISS_soju:hover {}
+#detail_THEMACKISS_soju:hover {
+    background-color: rgba(	47, 51, 57, 0.9);
+}
 
 #HALLASAN:hover,
-#detail_HALLASAN_soju:hover {}
+#detail_HALLASAN_soju:hover {
+    background-color: rgba(	47, 51, 57, 0.9);
+}
 
 span img {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
 }
 
 /* rightnav 설정 종료*/
