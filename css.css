@@ -826,13 +826,10 @@ label {
     display: none;
 
 }
-#recipe span:hover{
-    position : absolute;
-   right : 5px;
-   top : 5px;
+#recipe span{
    padding : 0px; /* padding : 5px; */
-   display : inline-block;
    cursor : pointer;
+   float: right;
 }
 
 footer{

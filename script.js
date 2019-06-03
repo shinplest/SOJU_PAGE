@@ -420,9 +420,11 @@ function popupdetail3(){
 function popupdetail4(){
   if (Cnt == 0) {
     document.getElementById("deatil4").style.display = "block";
+    document.querySelector("html").style.overflow = 'hidden';
     Cnt = 1;
   } else {
     document.getElementById("deatil4").style.display = "none";
+    document.querySelector("html").style.overflow = 'auto';
     Cnt = 0;
   }
 }
