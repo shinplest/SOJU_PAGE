@@ -146,56 +146,56 @@ li {
 /* slide를 24초동안 진행하며 무한반복 함 */
 
 #distilled li:nth-child(1) {
-    background-image: url('./img/증류식소주/일품진로.jpeg');
+    background-image: url('../img/증류식소주/일품진로.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #distilled li:nth-child(2) {
-    background-image: url('./img/증류식소주/대장부.jpg');
+    background-image: url('../img/증류식소주/대장부.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #distilled li:nth-child(3) {
-    background-image: url('./img/증류식소주/안동소주일품.jpg');
+    background-image: url('../img/증류식소주/안동소주일품.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #distilled li:nth-child(4) {
-    background-image: url('./img/증류식소주/화요2.jpg');
+    background-image: url('../img/증류식소주/화요2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #distilled li:nth-child(5) {
-    background-image: url('./img/증류식소주/문배술.jpg');
+    background-image: url('../img/증류식소주/문배술.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #distilled li:nth-child(6) {
-    background-image: url('./img/증류식소주/오크젠.jpg');
+    background-image: url('../img/증류식소주/오크젠.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #distilled li:nth-child(7) {
-    background-image: url('./img/증류식소주/려.png');
+    background-image: url('../img/증류식소주/려.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #distilled li:nth-child(8) {
-    background-image: url('./img/증류식소주/연화.jpg');
+    background-image: url('../img/증류식소주/연화.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -319,56 +319,56 @@ li {
 }
 
 #diluted li:nth-child(1) {
-    background-image: url('./img/희석식소주/참이슬.jpg');
+    background-image: url('../img/희석식소주/참이슬.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #diluted li:nth-child(2) {
-    background-image: url('./img/희석식소주/처음처럼.png');
+    background-image: url('../img/희석식소주/처음처럼.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #diluted li:nth-child(3) {
-    background-image: url('./img/희석식소주/이제우린.jpg');
+    background-image: url('../img/희석식소주/이제우린.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #diluted li:nth-child(4) {
-    background-image: url('./img/희석식소주/맛있는\ 참.jpg');
+    background-image: url('../img/희석식소주/맛있는\ 참.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #diluted li:nth-child(5) {
-    background-image: url('./img/희석식소주/C1.png');
+    background-image: url('../img/희석식소주/C1.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #diluted li:nth-child(6) {
-    background-image: url('./img/희석식소주/좋은데이.jpg');
+    background-image: url('../img/희석식소주/좋은데이.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #diluted li:nth-child(7) {
-    background-image: url('./img/희석식소주/잎새주.JPG');
+    background-image: url('../img/희석식소주/잎새주.JPG');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 
 #diluted li:nth-child(8) {
-    background-image: url('./img/희석식소주/한라산.jpg');
+    background-image: url('../img/희석식소주/한라산.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
